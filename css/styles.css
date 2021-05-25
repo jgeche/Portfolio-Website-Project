@@ -1,0 +1,103 @@
+/* Main Styles */
+
+body {
+  background-color: #ff6666;
+  color: #fff;
+  text-shadow: 3px 3px #ff0000;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+}
+
+a { 
+  text-decoration: none;
+}
+
+/* Main Classes */
+
+.display-4 {
+  font-size: 65px;
+}
+
+.btn-1 {
+  width: 175px;
+  align-content:center;
+  margin-left: 27px;
+}
+
+.lead {
+  font-size: 25px;
+}
+
+.navbar-brand {
+  color: red;
+}
+
+.prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1 {
+  box-shadow: 5px 5px 5px #660000;
+}
+
+.icon {
+  box-shadow: 3px 3px 3px #660000;
+}
+
+.text-div, .card {
+  background-color: #cc0000;
+  box-shadow: inset 10px 10px 50px #fff;
+  border:1px solid #ff704d;
+  border-radius: 25px;
+}
+
+.sec-img, .artpic1 {
+  border: 1px solid #ff704d;
+  border-radius: 25px;
+}
+
+.card-img-top {
+  border: 1px solid #ff704d;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+@media screen and (min-width: 480px) {
+  
+.btn-1 {
+  width: 175px;
+  align-content:center;
+  margin-left: 200px;
+}
+
+.prof-avatar, .navbar-brand, .nav-link, .contact, .icon, .prof-pic, .text-div, .sec-img, .artpic1, .card-img-top, .btn-1 { 
+  transition: all .8s ease-in-out; 
+}
+
+.prof-avatar:hover, .prof-pic:hover, .text-div:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
+  transform: scale(1.1); 
+}
+
+.navbar-brand:hover, .nav-link:hover, .contact:hover {
+  transform: scale(1.3);
+}
+
+.icon:hover { 
+  transform: scale(1.4) rotate(25deg);
+}   
+}

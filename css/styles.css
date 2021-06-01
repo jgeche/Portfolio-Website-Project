@@ -2,8 +2,7 @@
 
 body {
   background-color: #ff6666;
-  color: #fff;
-  text-shadow: 3px 3px #ff0000;
+  color: #000;
   border-left: 3px solid red;
   border-right: 3px solid red;
 }
@@ -28,8 +27,9 @@ a {
   font-size: 25px;
 }
 
-.navbar-brand {
-  color: red;
+.nav-link {
+  color: #FFF;
+  text-shadow: 2px 2px #000;
 }
 
 .prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1 {
@@ -41,9 +41,9 @@ a {
 }
 
 .text-div, .card {
-  background-color: #cc0000;
-  box-shadow: inset 10px 10px 50px #fff;
-  border:1px solid #ff704d;
+  background-color: #FF7F50;
+  box-shadow: inset 10px 10px 50px #FDFBC9;
+  border:1px solid yellow;
   border-radius: 25px;
 }
 

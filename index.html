@@ -46,12 +46,24 @@
 <!--Jumbotron-->     
 <div class="container">
 <div class="row">
-<div class="col-md">
-<div class="jumbotron jumbotron-fluid pt-lg-5 mt-lg-2">
-<h1 class="ml2 display-4 pt-5 mb-lg-4 pb-lg-5">Hello everyone!</h1>
-<p class="fs-2 fw-light pb-lg-4">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<div class="col-md mt-lg-5">
+<div class="jumbotron jumbotron-fluid pt-5 mb-lg-4 pb-lg-5 pl-2 pr-2">
+<h1 class="ml2 display-4 bg-danger text-dark pl-2">Hello everyone!</h1>
+<p class="fs-2 fw-light text-white pb-lg-4 px-3 mt-5" style="background-color:red;">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+</div>  
+<!--contact button-->
+<div class="d-grid gap-1">
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="contact btn justify-content-md-start mt-4 col-9 pt-3 pb-3 text-dark rounded-pill border border-warning border-1 mx-auto" type="button" style="background-color:#FF6700;">Contact me!<span class="wave">👋</span></button>
+</div>
+</div>
+<!--avatar profile-->
+<div class="col-md mt-lg-5 pt-lg-5 mb-lg-5">
+<div>
+<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-warning border-2 mx-auto d-block mt-5 mb-lg-5" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
+</div>
 <!--Social media icons-->
-<div class="d-flex justify-content-evenly pt-lg-5 mt-lg-3">
+<div class="social bg-danger rounded-pill">
+<div class="d-flex justify-content-evenly pt-lg-3 mt-lg-3">
 <a href="https://www.facebook.com/jamie.sketch">
 <img src="images/facebook.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="blue circular facebook icon button">
 </a>
@@ -69,31 +81,25 @@
 </a>
 </div>
 </div>
-</div>
-<div class="col-md mt-lg-5 pt-lg-5 mb-lg-5">
-<div>
-<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-warning border-2 mx-auto d-block mt-3 mb-lg-5" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
-</div>
-<div class="d-grid gap-1 mt-lg-5 pt-lg-5">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="contact display-5 btn btn-danger justify-content-md-start mt-5 col-8 py-4 rounded-pill border border-warning border-1 mx-auto" type="button">Contact me!</button>
-</div>
-</div>
-</div>
-</div> 
+</div> <!--col div-->
+</div> <!--row div-->
+</div> <!--container div-->
 <!--About me-->
 <div class="container mt-lg-5 pt-lg-5 mb-lg-5 pb-lg-5">
 <div class="row">
 <div class="col-md">
-<div class="jumbotron jumbotron-fluid pt-lg-5">
-<h1 class="display-4 pt-5 mt-2 pb-4 mb-lg-5" id="about">All about me!</h1>
+<div class="jumbotron jumbotron-fluid pt-lg-5" id="about">
+<h1 class="display-4 pt-2 mt-2 pb-2 mb-lg-5 pl-2 ml2 bg-danger">All about me!</h1>
+<div class="fs-4 fw-light text-white pb-lg-4 px-3 mt-5 fs-2" style="background-color:red;">
 <p class="fs-4 fw-light py-2">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
 <p class="fs-4 fw-light py-2">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
 <p class="fs-4 fw-light py-2">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
 </div>
 </div>
-<div class="col-md pt-lg-5 mt-lg-4">
+</div>
+<div class="col-md pt-lg-4 mt-lg-2">
 <div class="pt-4 mt-lg-2">
-<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle border border-warning border-1 mx-auto d-block mt-3 mb-2" alt="Profile picture of Jamie">
+<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle border border-warning border-1 mx-auto d-block mt-3 mb-5" alt="Profile picture of Jamie">
 <img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mx-auto d-block mt-3" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
 </div>
 </div>
@@ -101,33 +107,41 @@
 </div>
 <!--Resume-->
 <div class="container">
-<h1 class="display-4 pt-5 pb-3" id="resume">My Resume!</h1>
 <div class="row">
 <div class="col-md">
-<div class="text-div pt-2 px-3 pb-3">
+<h1 class="display-4 pt-2 pb-2 ml2 bg-danger" id="resume">My Resume!</h1>
+<div class="text-div pt-2 pb-3">
+<div class="info">
 <h2>Jamie R. Geche</h2>
 <p class="fs-6 fw-normal">Qualicum Beach, BC<br>Email: jamiergeche@gmail.com<br>Secondary: sketchgeche@gmail.com</p>
 <h3>Objective</h3>
 <p class="fs-6 fw-normal">A position within the field of web development and design which would advance my skills and achieve a desired career with this field.</p>
 <h3>Profile</h3>
 <p class="fs-6 fw-normal">An energetic, determined and hard-working individual with a strong passion for website design and technology.</p>
+</div>
+<div class="info-3 px-2 py-2">
+<h2>Awards and Honours</h2>
+<p class="fs-6 fw-normal bg-danger ml2">GVRD Scholarship Award<br>March 30, 2009</p>
+<p class="fs-6 fw-normal bg-danger ml2">Capilano University Bursary Fund<br>February 2008 and October 28, 2008</p>
+<p class="fs-6 fw-normal bg-danger ml2">Squamish Chamber of Commerce Endowment Fund<br>February 22, 2008</p>
+<p class="fs-6 fw-normal bg-danger ml2">Squamish Mcdonald's Employee Scholarship<br>June 9, 2005</p>  
+</div>
+</div>
+</div>
+<div class="col-md mt-5">
+<div class="text-div px-3 pt-2 pb-2 mt-5">
+<div class="info-2 px-2 py-2 ml2 fs-2" style="background-color: #FF0000;">
+<h3>Work Experience</h3>
+<p class="work fs-6 fw-bold">Housekeeping Supervisor and Relief Assistant Manager/Houseman/Laundry/Room Attendant<br>Chateau Victoria Hotel and Suites, Victoria, BC<br>October 2016-April 2018</p>
+<p class="work fs-6 fw-bold">Housekeeping Supervisor/Houseman/Room Attendant<br>DoubleTree By Hilton, Victoria, BC<br>June 2016-October 2016</p>
+<p class="work fs-6 fw-bold">Guest Relations Officer(Front Office, Reservations and Communications) and Houseman/Room Attendant/Laundry<br>Four Seasons Resort Whistler, Whistler, BC<br>December 2008-September 2009</p>
+</div>
+<div class="info-1">
 <h3>Education</h3>
 <p class="fs-6 fw-normal">Alberni Literacy Society, Port Alberni, BC<br>Web development and Design Training Program, December 2020-September 2021</p>
 <p class="fs-6 fw-normal">Capilano University, Squamish, BC<br>Destination Resort Management Co-op Diploma, September 2007-December 2008<br>Placed on Dean's List for Fall and Spring terms and Merit's List for Summer Term<br>Trained in computer applications within the program such as Word, Powerpoint ect.</p>
 <p class="fs-6 fw-normal">Howe Sound Secondary, Squamish, BC<br>Diploma, September 2005</p>
 </div>
-</div>
-<div class="col-md">
-<div class="text-div px-3 pt-2 pb-2">
-<h3>Work Experience</h3>
-<p class="fs-6 fw-normal">Housekeeping Supervisor and Relief Assistant Manager/Houseman/Laundry/Room Attendant<br>Chateau Victoria Hotel and Suites, Victoria, BC<br>October 2016-April 2018</p>
-<p class="fs-6 fw-normal">Housekeeping Supervisor/Houseman/Room Attendant<br>DoubleTree By Hilton, Victoria, BC<br>June 2016-October 2016</p>
-<p class="fs-6 fw-normal">Guest Relations Officer(Front Office, Reservations and Communications) and Houseman/Room Attendant/Laundry<br>Four Seasons Resort Whistler, Whistler, BC<br>December 2008-September 2009</p>
-<h2>Awards and Honours</h2>
-<p class="fs-6 fw-normal">GVRD Scholarship Award<br>March 30, 2009</p>
-<p class="fs-6 fw-normal">Capilano University Bursary Fund<br>February 2008 and October 28, 2008</p>
-<p class="fs-6 fw-normal">Squamish Chamber of Commerce Endowment Fund<br>February 22, 2008</p>
-<p class="fs-6 fw-normal">Squamish Mcdonald's Employee Scholarship<br>June 9, 2005</p>  
 </div>
 </div>
 </div>
@@ -201,7 +215,7 @@ Go to project!
 <div class="col-12 col-md-6">
 <!--Web Style Guide--> 
 <div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/webguide.jpg" class="card-img-top border border-warning border-2" alt="...">
+<img src="images/webguide.jpg" class="card-img-top border border-warning border-2" alt="picture of my web guide project">
 <div class="card-body">
 <h5 class="card-title">Web Style Guide</h5>
 <p class="card-text">A web style guide using SCSS to compile, organize and style into partials as well as some responsive touches to the buttons of the webpage.</p>
@@ -215,7 +229,7 @@ Go to project!
 <div class="col-12 col-md-6">  
 <!--Interactive Photo Gallery-->  
 <div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/interactive.jpg" class="card-img-top border border-warning border-2" alt="...">
+<img src="images/interactive.jpg" class="card-img-top border border-warning border-2" alt="picture of my interactive photo gallery project">
 <div class="card-body">
 <h5 class="card-title">Interactive Photo Gallery</h5>
 <p class="card-text">An interactive photo gallery that has hover functionality and uses Javascript to utilize a searchbar function.</p>
@@ -227,7 +241,7 @@ Go to project!
 <div class="col-12 col-md-6">
 <!--Game Show App-->  
 <div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/gameshow.jpg" class="card-img-top border border-warning border-2" alt="...">
+<img src="images/gameshow.jpg" class="card-img-top border border-warning border-2" alt="picture of my game show project">
 <div class="card-body">
 <h5 class="card-title">Game Show App</h5>
 <p class="card-text">Guessing game app with Javascript where the user needs to figure out a phrase using letters of the keyboard.</p>
@@ -241,7 +255,7 @@ Go to project!
 <div class="col-12 col-md-6"> 
 <!--Web App Dashboard-->  
 <div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/webapp.jpg" class="card-img-top border border-warning border-2" alt="...">
+<img src="images/webapp.jpg" class="card-img-top border border-warning border-2" alt="photo of my web app dashboard project">
 <div class="card-body">
 <h5 class="card-title">Web App Dashboard</h5>
 <p class="card-text">An interactive dashboard using SVG graphics and imported graphs, and tables, Javascript and app functionality which is also responsive to all screen sizes. </p>
@@ -253,7 +267,7 @@ Go to project!
 <div class="col-12 col-md-6"> 
 <!--API Project-->  
 <div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/api.jpg" class="card-img-top border border-warning border-2" alt="...">
+<img src="images/api.jpg" class="card-img-top border border-warning border-2" alt="picture of my API project">
 <div class="card-body">
 <h5 class="card-title">API Project</h5>
 <p class="card-text">A third-party API employee directory with modal windows and Javascript which changes the employee names with every click of the mouse.</p>
@@ -286,4 +300,4 @@ Go to project!
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body> 
-</html>  
+</html>   

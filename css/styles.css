@@ -1,18 +1,61 @@
-/* Main Styles */
+/* CSS STYLES */
+
+/* Element Styles */
 
 body {
   color: #000;
   font-family: arial;
 }
 
+a { 
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+/* Color Styles */
+
 .intro, .skills, .contact-div {
   background-color: #045de9;
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
+.footer-1 {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.navbar {
+background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+color: #000;
+font-weight: 800;
+height: 45px;
+}
+
 .about, .projects {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
+}
+
+.green {
+  background-color: #06470c;
+}
+
+.green-1 {
+  background-color: #089404;
+}
+
+.brown {
+  background-color: #53350A;
+}
+
+/* Spacing and Sizing Styles */
+
+.icon-1 {
+  width: 32px;
 }
 
 .prof-avatar {
@@ -35,44 +78,27 @@ body {
   width: 85%;
 }
 
+/* Font Styles */
+
 .jamie {
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
 }
-  
-.cloud {
-  animation: cloud 10s linear both infinite alternate;
-  width: 100px;
-  float: left;
+
+.footer-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
 }
 
-.sun {
-  animation: rotation 20s infinite linear;
-}
-  
-
-.ml2 {
-  border-radius: 10px;
-}
-  
 .text {
   font-size: 22px;
 }
 
-.navbar {
-background-color: #2f4353;
-background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
-color: #000;
-font-weight: 800;
-height: 45px;
-}
+/* Border Styles */
+  
 
-a { 
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: circle;
+.ml2 {
+  border-radius: 10px;
 }
 
 .prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
@@ -86,18 +112,6 @@ ul {
 .card {
   background-color: #855E42;
   border-radius: 25px;
-}
-
-.green {
-  background-color: #06470c;
-}
-
-.green-1 {
-  background-color: #089404;
-}
-
-.brown {
-  background-color: #53350A;
 }
 
 .sec-img, .artpic1 {
@@ -127,6 +141,16 @@ ul {
 
 .icon:hover { 
   transform: scale(1.4) rotate(25deg);
+}
+
+.cloud {
+  animation: cloud 10s linear both infinite alternate;
+  width: 100px;
+  float: left;
+}
+
+.sun {
+  animation: rotation 20s infinite linear;
 }
   
 .wave {
@@ -175,6 +199,38 @@ ul {
 }   
 
 .btn-2 {
-  margin-left: 50px;
+  margin-left: 40px;
 }
-}   
+  
+.mountain {
+  margin-left:90px;  
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+.text {
+    font-size: 37px;
+}
+  
+.prof-avatar {
+    width: 55%;
+    margin-left: 160px;
+    margin-top: -100px;
+}
+  
+.cloud {
+    width: 30%;
+}
+  
+.mtn {
+    width: 28%;
+}
+  
+.mountain {
+    width: 70%;
+    margin-left: 175px;
+}
+  
+  
+}  

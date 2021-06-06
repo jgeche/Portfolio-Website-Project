@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <!--title-->
-<title>Jamie's Website Project</title>
+<title>Portfolio Project</title>
 <!--meta tags-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,189 +11,164 @@
 <!--CSS-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--top navigation-->  
-<nav class="navbar navbar-expand-lg navbar navbar-light fixed-top px-3 border border-dark" style="background-color: #FF0000;">
-<div class="container-fluid mx-lg-5">
-<a class="navbar-brand" href="#top" data-mt-duration="300" style="color: #FFF">Jamie Geche</a>
+<nav class="navbar navbar-expand-sm navbar navbar-light fixed-top">
+<div class="container-fluid px-4">
+<a class="navbar-brand" href="#top" data-mt-duration="300"><img class="home rounded-circle" src="images/home.png"></a>
+<p class="pt-3 jamie">Jamie Geche</p>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
-<div class="container justify-content-end">
+<div class="container justify-content-start">
 <ul class="navbar-nav justify-content-end">
-<li class="nav-item px-2">
-<a class="nav-link text-light" href="#about" data-mt-duration="300">About</a>
+<li class="nav-item">
+<a class="nav-link" href="#about" data-mt-duration="300"><img class="about rounded-circle" src="images/me.jpg"></a>
 </li>
-<li class="nav-item px-2">
-<a class="nav-link text-light" href="#resume" data-mt-duration="300">Resume</a>
+<li class="nav-item">
+<a class="nav-link" href="#skills" data-mt-duration="300"><img class="skills rounded-circle" src="images/skills.png"></a>
 </li>
-<li class="nav-item px-2">
-<a class="nav-link text-light" href="#skills" data-mt-duration="300">Skills</a>
+<li class="nav-item">
+<a class="nav-link" href="#projects" data-mt-duration="300"><img class="projects rounded-circle" src="images/html.png"></a>
 </li>
-<li class="nav-item px-2">
-<a class="nav-link text-light" href="#projects" data-mt-duration="300">Projects</a>
+<li class="nav-item">
+<a class="nav-link" href="art" data-mt-duration="300"><img class="art rounded-circle bg-light" src="images/camera.png"></a>
 </li>
-<li class="nav-item px-2">
-<a class="nav-link text-light" href="#contact" data-mt-duration="300">Contact</a>
+<li class="nav-item">
+<a class="nav-link" href="#contact" data-mt-duration="300"><img class="phone rounded-circle" src="images/phone.png"></a>
+</li>
+<li>
+<img class="sun" src="images/sun.png">
 </li>
 </ul>
 </div>
 </div>
 </div>
-</nav>  
+</nav>
 <!--Jumbotron-->     
-<div class="container">
+<div class="container-fluid px-4 intro">
 <div class="row">
-<div class="col-md mt-lg-5">
-<div class="jumbotron jumbotron-fluid pt-5 mb-lg-4 pb-lg-5 pl-2 pr-2">
-<h1 class="ml2 display-4 bg-danger text-dark pl-2">Hello everyone!</h1>
-<p class="fs-2 fw-light text-white pb-lg-4 px-3 mt-5" style="background-color:red;">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<div class="col-md mt-5">
+<div class="jumbotron jumbotron-fluid">
+<h1 class="ml2 mt-5 mb-4 bg-light text-dark display-4">Hello everyone!</h1>
+<p class="text rounded-2 fw-light text-dark px-2 mt-md-3 mb-md-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
 </div>  
 <!--contact button-->
-<div class="d-grid gap-1">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="contact btn justify-content-md-start mt-4 col-9 pt-3 pb-3 text-dark rounded-pill border border-warning border-1 mx-auto" type="button" style="background-color:#FF6700;">Contact me!<span class="wave">👋</span></button>
+<div>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto pt-1" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
 </div>
 </div>
 <!--avatar profile-->
-<div class="col-md mt-lg-5 pt-lg-5 mb-lg-5">
-<div>
-<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-warning border-2 mx-auto d-block mt-5 mb-lg-5" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
+<div class="col-md">
+<div class="mt-md-5 ml-md-3 mb-md-n5">
+<img src="images/cloud.jpg" class="cloud img-fluid">
+<img src="images/cloud.jpg" class="cloud img-fluid">
+<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2 ml-5 pl-5 mt-md-4" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
 </div>
 <!--Social media icons-->
-<div class="social bg-danger rounded-pill">
-<div class="d-flex justify-content-evenly pt-lg-3 mt-lg-3">
+<img src="images/mtn.png" class="mtn img-fluid" style="margin-left:10px;">
+<img src="images/mtn.png" class="mtn img-fluid">
+<div class="social rounded-pill bg-secondary">
+<div class="d-flex justify-content-evenly pt-2 pb-2 mb-5">
 <a href="https://www.facebook.com/jamie.sketch">
-<img src="images/facebook.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="blue circular facebook icon button">
+<img src="images/facebook.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
 </a>
 <a href="https://github.com/jgeche">
-<img src="images/github.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="black and white circular github icon button">
+<img src="images/github.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="black and white circular github icon button">
 </a>
 <a href="https://www.instagram.com/sketchtothegech/">
-<img src="images/insta.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="purple and yellow circular instagram icon button">
+<img src="images/insta.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="purple and yellow circular instagram icon button">
 </a>
 <a href="https://twitter.com/JamieRSketch">
-<img src="images/twitter.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="blue circular twitter icon button">
+<img src="images/twitter.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular twitter icon button">
 </a>
 <a href="https://www.linkedin.com/in/jamierg/">
-<img src="images/linked-in.jpg" class="icon img-fluid rounded-circle border border-warning border-2" alt="blue circular linked in icon button">
+<img src="images/linked-in.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular linked-in icon button">
 </a>
 </div>
 </div>
-</div> <!--col div-->
-</div> <!--row div-->
-</div> <!--container div-->
+<img src="images/mtn-1.png" style="margin-left:90px">
+</div>
+</div>
+</div>
 <!--About me-->
-<div class="container mt-lg-5 pt-lg-5 mb-lg-5 pb-lg-5">
+<div class="container-fluid about px-4">
 <div class="row">
 <div class="col-md">
-<div class="jumbotron jumbotron-fluid pt-lg-5" id="about">
-<h1 class="display-4 pt-2 mt-2 pb-2 mb-lg-5 pl-2 ml2 bg-danger">All about me!</h1>
-<div class="fs-4 fw-light text-white pb-lg-4 px-3 mt-5 fs-2" style="background-color:red;">
-<p class="fs-4 fw-light py-2">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
-<p class="fs-4 fw-light py-2">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
-<p class="fs-4 fw-light py-2">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
+<div class="jumbotron jumbotron-fluid" id="about">
+<h1 class="display-4 ml2 bg-light text-dark mb-4 mt-md-5">All about me!</h1>
+<div class="text-1 text-white py-2 px-2 rounded-3" style="background-color:#006400;">
+<p>I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
+<p>I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
+<p>In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
 </div>
 </div>
 </div>
-<div class="col-md pt-lg-4 mt-lg-2">
-<div class="pt-4 mt-lg-2">
-<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle border border-warning border-1 mx-auto d-block mt-3 mb-5" alt="Profile picture of Jamie">
-<img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mx-auto d-block mt-3" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
-</div>
-</div>
-</div>
-</div>
-<!--Resume-->
-<div class="container">
-<div class="row">
 <div class="col-md">
-<h1 class="display-4 pt-2 pb-2 ml2 bg-danger" id="resume">My Resume!</h1>
-<div class="text-div pt-2 pb-3">
-<div class="info">
-<h2>Jamie R. Geche</h2>
-<p class="fs-6 fw-normal">Qualicum Beach, BC<br>Email: jamiergeche@gmail.com<br>Secondary: sketchgeche@gmail.com</p>
-<h3>Objective</h3>
-<p class="fs-6 fw-normal">A position within the field of web development and design which would advance my skills and achieve a desired career with this field.</p>
-<h3>Profile</h3>
-<p class="fs-6 fw-normal">An energetic, determined and hard-working individual with a strong passion for website design and technology.</p>
+<div class="pt-4 mt-md-2">
+<img src="images/paintbrush.png">
+<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle d-block" alt="Profile picture of Jamie">
+<img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mx-auto d-block mt-1 mb-4" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
 </div>
-<div class="info-3 px-2 py-2">
-<h2>Awards and Honours</h2>
-<p class="fs-6 fw-normal bg-danger ml2">GVRD Scholarship Award<br>March 30, 2009</p>
-<p class="fs-6 fw-normal bg-danger ml2">Capilano University Bursary Fund<br>February 2008 and October 28, 2008</p>
-<p class="fs-6 fw-normal bg-danger ml2">Squamish Chamber of Commerce Endowment Fund<br>February 22, 2008</p>
-<p class="fs-6 fw-normal bg-danger ml2">Squamish Mcdonald's Employee Scholarship<br>June 9, 2005</p>  
-</div>
-</div>
-</div>
-<div class="col-md mt-5">
-<div class="text-div px-3 pt-2 pb-2 mt-5">
-<div class="info-2 px-2 py-2 ml2 fs-2" style="background-color: #FF0000;">
-<h3>Work Experience</h3>
-<p class="work fs-6 fw-bold">Housekeeping Supervisor and Relief Assistant Manager/Houseman/Laundry/Room Attendant<br>Chateau Victoria Hotel and Suites, Victoria, BC<br>October 2016-April 2018</p>
-<p class="work fs-6 fw-bold">Housekeeping Supervisor/Houseman/Room Attendant<br>DoubleTree By Hilton, Victoria, BC<br>June 2016-October 2016</p>
-<p class="work fs-6 fw-bold">Guest Relations Officer(Front Office, Reservations and Communications) and Houseman/Room Attendant/Laundry<br>Four Seasons Resort Whistler, Whistler, BC<br>December 2008-September 2009</p>
-</div>
-<div class="info-1">
-<h3>Education</h3>
-<p class="fs-6 fw-normal">Alberni Literacy Society, Port Alberni, BC<br>Web development and Design Training Program, December 2020-September 2021</p>
-<p class="fs-6 fw-normal">Capilano University, Squamish, BC<br>Destination Resort Management Co-op Diploma, September 2007-December 2008<br>Placed on Dean's List for Fall and Spring terms and Merit's List for Summer Term<br>Trained in computer applications within the program such as Word, Powerpoint ect.</p>
-<p class="fs-6 fw-normal">Howe Sound Secondary, Squamish, BC<br>Diploma, September 2005</p>
-</div>
-</div>
+<img src="images/trees.png" style="margin-left: 90px;">
 </div>
 </div>
 </div>
 <!--Skills-->
-<div class="container">
+<div class="container-fluid px-4 skills">
 <div class="row">
 <div class="col-12 col-md-6">
 <div class="jumbotron jumbotron-fluid pt-lg-5">
-<h1 class="display-4 pt-5 pb-lg-4" id="skills">My Skills!</h1>
-<ul>
-<li class="lead my-lg-5">Skilled in all things HMTL and CSS!</li>
-<li class="lead my-lg-5">Accomplished in responsive design!</li>
-<li class="lead my-lg-5">Skilled in all web-based forms!</li>  
-<li class="lead my-lg-5">Accomplished in SCSS and Javascript!</li>
-<li class="lead my-lg-5 pb-md-5">Skilled in SVG graphics, web animations and utilizing API's!</li>
+<h1 class="display-4 rounded-3 bg-light ml2 mb-4 mt-5" id="skills">My Skills!</h1>
+<ul class="text mx-n5 py-2 ml2 mb-md-5 rounded-3 text-dark" style="background-color: #FFA500;">
+<li class="my-md-2">Skilled in all things HMTL and CSS!</li>
+<li class="my-md-2">Accomplished in responsive design!</li>
+<li class="my-md-2">Skilled in all web-based forms!</li>  
+<li class="my-md-2">Accomplished in SCSS and Javascript!</li>
+<li class="my-md-2">Skilled in SVG graphics, web animations and utilizing API's!</li>
 </ul>
+<img class="bg-light rounded-circle mb-md-5" src="images/lightbulb.png" style="margin-left: 120px;">
 </div>
 </div>
-<div class="col-12 col-md-6 pt-lg-5 mt-lg-5">
-<img src="images/web-dev.jpg" class="sec-img img-fluid mx-auto d-block mt-lg-5 border-warning border-1" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
+<div class="col-12 col-md-6 mt-5 pt-md-5">
+<img src="images/web-dev.jpg" class="sec-img img-fluid mt-md-4 border-warning border-1" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
 <div class="pt-5">
-<img src="images/web-dev2.jpg" class="sec-img img-fluid mx-auto d-block mt-lg-5 border-warning border-1" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
+<img src="images/web-dev2.jpg" class="sec-img img-fluid mt-md-1 mb-md-5 border-warning border-1" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
+</div>
+<img class="pt-md-5 mt-md-1" src="images/mtn-1.png" style="margin-left:50px">
 </div>
 </div>
 </div>
 <!--Projects-->  
-<div class="container pt-5 mt-lg-5">
-<h1 class="display-4 pt-lg-5 pb-lg-5 pb-3" id="projects">My Projects!</h1>
+<div class="container-fluid px-4 projects">
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
+<h1 class="display-4 rounded-3 bg-light mb-4 mt-5" id="projects">My Projects!</h1>
 <!--Personal Page-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/personal.jpg" class="card-img-top border border-warning border-2" alt="picture of my first personal webpage project">
+<div class="card green text-light mb-5 border border-dark border-4 pb-2">
+<img src="images/personal.jpg" class="card-img-top border border-light border-2" alt="picture of my first personal webpage project">
 <div class="card-body">
 <h5 class="card-title">Personal Page</h5>
 <p class="card-text">Simple webpage about myself through HTML and CSS which includes linking pages together. 
 </p>
-<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">
+<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">
 Go to project!
 </a>
 </div>
 </div>
 </div>
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-6 mt-md-4">
+<img class="" src="images/web-dev3.png" style="margin-left: 100px;">
 <!--Responsive Layout-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/responsive.jpg" class="card-img-top border border-warning border-1" alt="picture of my responsive layout project">
+<div class="card brown text-light mb-5 border border-dark border-4 pb-2 mt-md-3">
+<img src="images/responsive.jpg" class="card-img-top border border-light border-1" alt="picture of my responsive layout project">
 <div class="card-body">
 <h5 class="card-title">Responsive Layout</h5>
-<p class="card-text">Fully functional webpage that can be viewed in mobile, tablet and desktop views.</p>
-<a href="https://jgeche.github.io/Responsive-Layout-Project/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project! 
+<p class="card-text">Fully functional webpage made with HTML and CSS that can be viewed in mobile, tablet and desktop views.</p>
+<a href="https://jgeche.github.io/Responsive-Layout-Project/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project! 
 </a>
 </div>
 </div>
@@ -202,24 +177,24 @@ Go to project!
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
 <!--Registration Form-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/regform.jpg" class="card-img-top border border-warning border-2" alt="picture of my registration form project">
+<div class="card green-1 text-dark mb-5 border border-dark border-4 pb-2">
+<img src="images/regform.jpg" class="card-img-top border border-light border-2" alt="picture of my registration form project">
 <div class="card-body">
 <h5 class="card-title">Registration Form</h5>
-<p class="card-text">Online registration form with functional buttons, drop-down menus, checkboxes and playholder detailing.</p>
-<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project!
+<p class="card-text">Fully functional online registration form made for the public with functional buttons, drop-down menus, checkboxes and playholder detailing.</p>
+<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6">
 <!--Web Style Guide--> 
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/webguide.jpg" class="card-img-top border border-warning border-2" alt="picture of my web guide project">
+<div class="card mb-5 text-dark border border-dark border-4 pb-2">
+<img src="images/webguide.jpg" class="card-img-top border border-light border-2" alt="picture of my web guide project">
 <div class="card-body">
 <h5 class="card-title">Web Style Guide</h5>
 <p class="card-text">A web style guide using SCSS to compile, organize and style into partials as well as some responsive touches to the buttons of the webpage.</p>
-<a href="https://jgeche.github.io/Web-style-guide/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project! 
+<a href="https://jgeche.github.io/Web-style-guide/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project! 
 </a>
 </div>
 </div>
@@ -228,76 +203,85 @@ Go to project!
 <div class="row align-items-start">
 <div class="col-12 col-md-6">  
 <!--Interactive Photo Gallery-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/interactive.jpg" class="card-img-top border border-warning border-2" alt="picture of my interactive photo gallery project">
+<div class="card green text-light mb-5 border border-dark border-4 pb-2">
+<img src="images/interactive.jpg" class="card-img-top border border-light border-2" alt="picture of my interactive photo gallery project">
 <div class="card-body">
 <h5 class="card-title">Interactive Photo Gallery</h5>
 <p class="card-text">An interactive photo gallery that has hover functionality and uses Javascript to utilize a searchbar function.</p>
-<a href="https://jgeche.github.io/Interactive-Photo-Gallery/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project! 
+<a href="https://jgeche.github.io/Interactive-Photo-Gallery/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project! 
 </a>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6">
 <!--Game Show App-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/gameshow.jpg" class="card-img-top border border-warning border-2" alt="picture of my game show project">
+<div class="card brown text-light mb-5 border border-dark border-4 pb-2">
+<img src="images/gameshow.jpg" class="card-img-top border border-light border-2" alt="picture of my game show project">
 <div class="card-body">
 <h5 class="card-title">Game Show App</h5>
 <p class="card-text">Guessing game app with Javascript where the user needs to figure out a phrase using letters of the keyboard.</p>
-<a href="https://jgeche.github.io/Game-Show-App/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project!  
+<a href="https://jgeche.github.io/Game-Show-App/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!  
 </a>
 </div>
 </div>
 </div>
 </div>
 <div class="row align-items-start">
-<div class="col-12 col-md-6"> 
+<div class="col-12 col-md-6 pb-md-5"> 
 <!--Web App Dashboard-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/webapp.jpg" class="card-img-top border border-warning border-2" alt="photo of my web app dashboard project">
+<div class="card green-1 text-dark mb-5 border border-dark border-4 pb-2">
+<img src="images/webapp.jpg" class="card-img-top border border-light border-2" alt="photo of my web app dashboard project">
 <div class="card-body">
 <h5 class="card-title">Web App Dashboard</h5>
 <p class="card-text">An interactive dashboard using SVG graphics and imported graphs, and tables, Javascript and app functionality which is also responsive to all screen sizes. </p>
-<a href="https://jgeche.github.io/Web-app-Dashboard/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project!   
+<a href="https://jgeche.github.io/Web-app-Dashboard/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!   
 </a>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6"> 
 <!--API Project-->  
-<div class="card mb-5 border border-danger border-4 pb-2">
-<img src="images/api.jpg" class="card-img-top border border-warning border-2" alt="picture of my API project">
+<div class="card mb-5 border border-dark border-4 pb-2">
+<img src="images/api.jpg" class="card-img-top border border-light border-2" alt="picture of my API project">
 <div class="card-body">
 <h5 class="card-title">API Project</h5>
 <p class="card-text">A third-party API employee directory with modal windows and Javascript which changes the employee names with every click of the mouse.</p>
-<a href="https://jgeche.github.io/API-Project/" class="btn-1 btn btn-danger rounded-pill border border-danger border-2">Go to project!   
+<a href="https://jgeche.github.io/API-Project/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!   
 </a>
 </div>
 </div>
+<img src="images/trees.png" style="margin-left: 90px;">
 </div>    
 </div>
 </div>
 <!--Contact--> 
-<div class="container">
-<div class="jumbotron jumbotron-fluid pt-lg-5 mt-lg-5">
-<h1 class="display-4 pt-lg-5 mt-lg-5 pb-lg-5" id="contact">I am always available for contact!</h1>
-
-<p class="lead my-lg-3">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
-<p class="lead my-lg-3">Email me below! 
-<p class="lead my-lg-3">Thanks and have a great day!</p>
-<div class="d-grid gap-1 col-lg-5 mx-auto my-lg-5">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="contact btn btn-danger justify-content-md-start mt-lg-5 col-8 py-4 mb-5 rounded-pill border border-warning border-1 mx-auto" type="button">Email me! <span class="wave">👋</span></button>
+<div class="container-fluid px-4 pt-md-5 contact-div">
+<div class="row">
+<div class="col pb-md-2">
+<div class="jumbotron jumbotron-fluid">
+<h1 class="display-4 rounded-3 bg-light mb-5" id="contact">I am always available for contact!</h1>
+<div class="px-2 rounded-3 text-light" style="background-color: green;">
+<p class="text">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
+<p class="text">Email me below! 
+<p class="text">Thanks and have a great day!</p>
 </div>
-<div class="mb-5 pb-5">
 </div>
+</div>
+<div class="col">
+<div class="col-lg-5">
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="btn-2 text contact btn btn-danger justify-content-md-start col-8 py-4 mb-5 rounded-pill border border-warning border-1" type="button">Email me! <span class="wave">👋</span></button>
+</div>
+<div>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="btn-2 text contact btn btn-danger justify-content-md-start col-8 py-4 mb-5 rounded-pill border border-1" type="button" style="background-color:#FD5F00;">Click here for my resume!</button>
+</div>
+<img src="images/mtn-1.png" class="mt-md-5 pt-md-5" style="margin-left:90px">
 </div>
 </div>
 </div>
 <!--optional Javascript-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="app.js"></script>  
+<script src="js/app.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body> 
-</html>   
+</html>     

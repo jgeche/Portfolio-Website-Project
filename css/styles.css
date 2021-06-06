@@ -1,61 +1,107 @@
 /* Main Styles */
 
 body {
-  background-color: #ff6666;
   color: #000;
-  border-left: 3px solid red;
-  border-right: 3px solid red;
+  font-family: arial;
+}
+
+.intro, .skills, .contact-div {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+.about, .projects {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
+}
+
+.prof-avatar {
+  width: 75%;
+  margin-bottom: 65px;
+  margin-left: 37px;
+}
+
+.btn {
+  display: block;
+}
+
+.prof-pic {
+  width: 75%;
+  margin-bottom: 40px;
+  margin-left: 37px;
+}
+
+.artpic1 {
+  width: 85%;
+}
+
+.jamie {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+  
+.cloud {
+  animation: cloud 10s linear both infinite alternate;
+  width: 100px;
+  float: left;
+}
+
+.sun {
+  animation: rotation 20s infinite linear;
+}
+  
+
+.ml2 {
+  border-radius: 10px;
+}
+  
+.text {
+  font-size: 22px;
+}
+
+.navbar {
+background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+color: #000;
+font-weight: 800;
+height: 45px;
 }
 
 a { 
   text-decoration: none;
 }
 
-/* Main Classes */
-
-.display-4 {
-  font-size: 65px;
+ul {
+  list-style-type: circle;
 }
 
-.btn-1 {
-  width: 175px;
-  align-content:center;
-  margin-left: 27px;
-}
-
-.lead {
-  font-size: 25px;
-}
-
-.nav-link, a.navbar-brand, .fs-2 {
-  color: #FFF;
-  text-shadow: 2px 2px #000;
-}
-
-.fs-2, .button, .prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1 {
-  box-shadow: 5px 5px 5px #660000;
+.prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
+  box-shadow: 5px 5px 5px #000;
 }
 
 .fs-2 {
   border-radius: 25px;
 }
 
-.ml2 {
-  border-radius: 10px;
-  padding-left: 10px;
-}
-
-.icon {
-  box-shadow: 3px 3px 3px #660000;
-}
-
 .card {
-  background-color: #DC143C;
+  background-color: #855E42;
   border-radius: 25px;
 }
 
+.green {
+  background-color: #06470c;
+}
+
+.green-1 {
+  background-color: #089404;
+}
+
+.brown {
+  background-color: #53350A;
+}
+
 .sec-img, .artpic1 {
-  border: 1px solid #ff704d;
+  border: 1px solid #FFF;
   border-radius: 25px;
 }
 
@@ -65,26 +111,7 @@ a {
   border-top-right-radius: 25px;
 }
 
-.social { 
-    margin-top: 155px;
-    padding: 0px 0px 20px 0px;
-}
-
-.contact {
-  font-size: 30px;
-}
-
-/* Media Queries */
-
-@media screen and (min-width: 480px) {
-  
-.btn-1 {
-  width: 175px;
-  align-content:center;
-  margin-left: 200px;
-}
-  
-/* Transitions and Transforms */
+/* Animations */
   
 .fs-6, .fs-2, .button, .social, .navbar-brand, .nav-link, .contact, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
@@ -101,18 +128,12 @@ a {
 .icon:hover { 
   transform: scale(1.4) rotate(25deg);
 }
-
-.prof-avatar:hover {
-  animation-name: rotate;
-  animation-duration: 2s;
-  animation-direction: reverse;
-}
   
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s;        /* Change to speed up or slow down */
   animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  transform-origin: 20% 20%;       /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
@@ -127,4 +148,33 @@ a {
   100% { transform: rotate( 0.0deg) }
 }
 
-    
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes cloud {
+    from{transform: translateX(25px);}
+    to{transform: translateX(125px);}
+}
+
+@media only screen and (min-width: 768px) {
+
+.prof-avatar {
+  width: 75%;
+  margin-bottom: 15px;
+  margin-left: 37px;
+} 
+
+.text-1 {
+  font-size: 19px;
+}   
+
+.btn-2 {
+  margin-left: 50px;
+}
+}   

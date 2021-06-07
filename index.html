@@ -26,7 +26,7 @@
 <div class="container justify-content-start">
 <ul class="navbar-nav justify-content-end">
 <li class="nav-item">
-<a class="nav-link" href="#about" data-mt-duration="300"><img class="img-fluid about rounded-circle" src="images/me.jpg"></a>
+<a class="nav-link" tabindex="0" data-toggle="popover" data-trigger="hover" data-content="About me" href="#about" data-mt-duration="300"><img class="img-fluid about rounded-circle" src="images/me.jpg"></a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#skills" data-mt-duration="300"><img class="img-fluid skills rounded-circle" src="images/skills.png"></a>
@@ -81,20 +81,20 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 </div>
 </nav>
 <!--Jumbotron-->     
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pb-lg-3 intro">
 <div class="row pt-5">
-<div class="col-md pt-4 mt-md-5">
+<div class="col-md pt-4 mt-md-5 mt-lg-4 pt-lg-5">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-md-5">Hello everyone!</h1>
-<p class="text rounded-3 fw-light text-dark px-2 py-1 fs-3 mb-md-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<p class="text hello rounded-3 fw-light text-dark px-2 py-1 fs-3 mb-md-5 mt-lg-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
 </div>  
 <!--contact button-->
-<div>
+<div class="pt-lg-3 container-fluid">
 <button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 fs-3" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
 </div>
 </div>
 <!--avatar profile-->
-<div class="col-md pt-4">
+<div class="col-md pt-4 pt-lg-0">
 <div>
 <img src="images/cloud.jpg" class="cloud img-fluid">
 </div>
@@ -103,7 +103,8 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 </div>
 <!--Social media icons-->
 <img src="images/mtn.png" class="mtn img-fluid" style="margin-left:10px;">
-<img src="images/mtn.png" class="mtn img-fluid">
+<img src="images/mtn.png" class="mtn mtn-1 img-fluid">
+<img src="images/mtn.png" class="mtn mtn-2 img-fluid">
 <div class="social rounded-pill bg-secondary mb-5">
 <div class="d-flex justify-content-evenly py-2">
 <a href="https://www.facebook.com/jamie.sketch">
@@ -157,7 +158,7 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <div class="row">
 <div class="col-12 col-md-6">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3" id="skills">My Skills!</h1>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-lg-5" id="skills">My Skills!</h1>
 <ul class="text-dark px-2 py-1 rounded-3 fs-3 mt-3 mb-5" style="background-color: #FFA500;">
 <li class="fw-light py-1">⮕Skilled in all things HMTL and CSS!</li>
 <li class="fw-light py-1">⮕Accomplished in responsive design!</li>
@@ -165,8 +166,8 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <li class="fw-light py-1">⮕Accomplished in SCSS and Javascript!</li>
 <li class="fw-light py-1">⮕Skilled in SVG graphics, web animations and utilizing API's!</li>
 </ul>
-<div class="lightbulb mx-auto">
-<img class="bg-light rounded-circle mb-md-5" src="images/lightbulb.png">
+<div class="lightbulb mx-auto mb-lg-4">
+<img class="bg-light rounded-circle mt-lg-3 mb-md-5" src="images/lightbulb.png">
 </div>
 </div>
 </div>
@@ -182,7 +183,7 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-5 projects">
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
-<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3" id="projects">My Projects!</h1>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mt-lg-2" id="projects">My Projects!</h1>
 <!--Personal Page-->  
 <div class="card text-dark border border-dark border-4 mb-3 pers pb-md-2" style="background-color:#b5651d">
 <img src="images/personal.jpg" class="card-img-top border border-light border-2" alt="picture of my first personal webpage project">
@@ -220,7 +221,7 @@ Go to project!
 <div class="card-body">
 <h5 class="card-title">Registration Form</h5>
 <p class="card-text">Fully functional online registration form made for the public with functional buttons, drop-down menus, checkboxes and playholder detailing.</p>
-<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn rounded-pill text-light border border-warning border-1" style="background-color: #FD5F00;">Go to project!
+<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
@@ -293,18 +294,18 @@ Go to project!
 </div>
 <!--Contact--> 
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-md-5 contact-div">
-<div class="row">
+<div class="row pt-lg-2">
 <div class="col-md">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-md-5 mb-3" id="contact">I am always available for contact!</h1>
-<div class="px-2 py-1 rounded-3 text-light mb-3 fs-3" style="background-color: green;">
+<div class="px-2 py-1 rounded-3 text-light mb-3 mt-lg-2 fs-3" style="background-color: green;">
 <p class="text">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
-<p class="text">Email me below! 
+<p class="text">Email me to the right or feel free to take a look at my resume! 
 <p class="text">Thanks and have a great day!</p>
 </div>
 </div>
 </div>
-<div class="col-md pt-md-4">
+<div class="col-md pt-md-4 pt-lg-5">
 <div>
 <button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button">Email me! <span class="wave">👋</span></button>
 </div>
@@ -325,7 +326,7 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 <div class="col email">
 <p class="pt-1 text-light" style="font-family:roboto;">jamiergeche@gmail.com</p>
 </div>
-<div class="col links pl-5">
+<div class="col links pl-5 d-flex justify-content-around">
 <a href="">
 <img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="">
 </a>
@@ -354,4 +355,4 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body> 
-</html> 
+</html>

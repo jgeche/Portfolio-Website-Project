@@ -8,17 +8,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!--bootstrap CSS-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<!--CSS-->
+<!--CSS/Fonts-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--top navigation-->  
-<nav class="navbar navbar-expand-sm navbar navbar-light fixed-top">
-<div class="container-fluid px-4 px-lg-5">
-<a class="navbar-brand" href="#top" data-mt-duration="300"><img class="home rounded-circle" src="images/home.png"></a>
-<p class="pt-3 jamie">Jamie Geche</p>
+<!--navigation for desktop and tablet-->  
+<nav class="navbar-2 navbar-expand-sm navbar navbar-light fixed-top">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5">
+<a class="navbar-brand" href="#top" data-mt-duration="300"><img class="img-fluid home rounded-circle mb-2" src="images/home.png"></a>
+<p class="fs-1 jamie">Jamie Geche</p>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -26,22 +26,54 @@
 <div class="container justify-content-start">
 <ul class="navbar-nav justify-content-end">
 <li class="nav-item">
-<a class="nav-link" href="#about" data-mt-duration="300"><img class="about rounded-circle" src="images/me.jpg"></a>
+<a class="nav-link" href="#about" data-mt-duration="300"><img class="img-fluid about rounded-circle" src="images/me.jpg"></a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#skills" data-mt-duration="300"><img class="skills rounded-circle" src="images/skills.png"></a>
+<a class="nav-link" href="#skills" data-mt-duration="300"><img class="img-fluid skills rounded-circle" src="images/skills.png"></a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#projects" data-mt-duration="300"><img class="projects rounded-circle" src="images/html.png"></a>
+<a class="nav-link" href="#projects" data-mt-duration="300"><img class="img-fluid projects rounded-circle" src="images/html.png"></a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="art" data-mt-duration="300"><img class="art rounded-circle bg-light" src="images/camera.png"></a>
+<a class="nav-link" href="art" data-mt-duration="300"><img class="img-fluid art rounded-circle bg-light" src="images/camera.png"></a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#contact" data-mt-duration="300"><img class="phone rounded-circle" src="images/phone.png"></a>
+<a class="nav-link" href="#contact" data-mt-duration="300"><img class="img-fluid phone rounded-circle" src="images/phone.png"></a>
 </li>
 <li>
-<img class="sun" src="images/sun.png">
+<img class="sun img-fluid" src="images/sun.png">
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<!--navigation for mobile--> 
+<nav class="navbar-1 navbar-expand-sm navbar navbar-light fixed-top">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5">
+<a class="navbar-brand fs-1 jamie" href="#top" data-mt-duration="300">Jamie Geche 
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<div class="container justify-content-start">
+<ul class="navbar-nav justify-content-end bg-light rounded-1" style="background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
+<li class="nav-item">
+<a class="nav-link px-2 text-dark" href="#about" data-mt-duration="300">About Me!⭐</a>
+</li>
+<li class="nav-item">
+<a class="nav-link px-2 text-dark" href="#skills" data-mt-duration="300">My Skills!⭐</a>
+</li>
+<li class="nav-item">
+<a class="nav-link px-2 text-dark" href="#projects" data-mt-duration="300">My Projects!⭐</a>
+</li>
+<li class="nav-item">
+<a class="nav-link px-2 text-dark" href="art" data-mt-duration="300">My Photos!⭐</a>
+</li>
+<li class="nav-item">
+<a class="nav-link px-2 text-dark" href="#contact" data-mt-duration="300">Contact Me!⭐</a>
 </li>
 </ul>
 </div>
@@ -49,30 +81,31 @@
 </div>
 </nav>
 <!--Jumbotron-->     
-<div class="container-fluid px-4 px-lg-5 intro">
-<div class="row">
-<div class="col-md mt-5">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
+<div class="row pt-5">
+<div class="col-md pt-4">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="ml2 mt-5 mb-4 mb-lg-5 bg-light text-dark display-4">Hello everyone!</h1>
-<p class="text rounded-2 fw-light text-dark px-2 mt-md-3 mb-md-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3">Hello everyone!</h1>
+<p class="text rounded-3 fw-light text-dark px-2 py-1 fs-3" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
 </div>  
 <!--contact button-->
 <div>
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto pt-1" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 fs-3" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
 </div>
 </div>
 <!--avatar profile-->
 <div class="col-md">
-<div class="mt-md-5 ml-md-3 mt-lg-1">
+<div>
 <img src="images/cloud.jpg" class="cloud img-fluid">
-<img src="images/cloud.jpg" class="cloud img-fluid">
-<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2 ml-5 pl-5 mt-md-4 mt-lg-0" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
+</div>
+<div class="avatar">
+<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
 </div>
 <!--Social media icons-->
 <img src="images/mtn.png" class="mtn img-fluid" style="margin-left:10px;">
 <img src="images/mtn.png" class="mtn img-fluid">
-<div class="social rounded-pill bg-secondary">
-<div class="d-flex justify-content-evenly pt-2 pb-2 mb-5">
+<div class="social rounded-pill bg-secondary mb-5">
+<div class="d-flex justify-content-evenly py-2">
 <a href="https://www.facebook.com/jamie.sketch">
 <img src="images/facebook.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
 </a>
@@ -90,65 +123,68 @@
 </a>
 </div>
 </div>
-<img src="images/mtn-1.png" class="mountain">
 </div>
 </div>
 </div>
 <!--About me-->
-<div class="container-fluid about px-4 px-lg-5">
+<div class="container-fluid about px-sm-1 px-md-4 px-lg-5 pt-5">
 <div class="row">
 <div class="col-md">
 <div class="jumbotron jumbotron-fluid" id="about">
-<h1 class="display-4 ml2 bg-light text-dark mb-4 mt-md-5">All about me!</h1>
-<div class="text-1 text-white py-2 px-2 rounded-3" style="background-color:#006400;">
-<p>I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
-<p>I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
-<p>In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3">All about me!</h1>
+<div class="text-white px-2 pt-1 rounded-3 fs-3 mt-3" style="background-color:#006400;">
+<p class="fw-light">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
+<p class="fw-light">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
+<p class="fw-light">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
 </div>
 </div>
 </div>
 <div class="col-md">
-<div class="pt-4 mt-md-2">
+<div class="paint pt-3 pb-4">
 <img src="images/paintbrush.png">
-<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle d-block" alt="Profile picture of Jamie">
-<img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mx-auto d-block mt-1 mb-4" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
 </div>
-<img src="images/trees.png" style="margin-left: 90px;">
+<div class="pic2 mx-auto">
+<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle mb-4" alt="Profile picture of Jamie">
+<div class="pic3 mx-auto pb-5">
+<img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mb-4" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
+</div>
+</div>
 </div>
 </div>
 </div>
 <!--Skills-->
-<div class="container-fluid px-4 px-lg-5 skills">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 skills">
 <div class="row">
 <div class="col-12 col-md-6">
-<div class="jumbotron jumbotron-fluid pt-lg-5">
-<h1 class="display-4 rounded-3 bg-light ml2 mb-4 mt-5" id="skills">My Skills!</h1>
-<ul class="text mx-n5 py-2 ml2 mb-md-5 rounded-3 text-dark" style="background-color: #FFA500;">
-<li class="my-md-2">Skilled in all things HMTL and CSS!</li>
-<li class="my-md-2">Accomplished in responsive design!</li>
-<li class="my-md-2">Skilled in all web-based forms!</li>  
-<li class="my-md-2">Accomplished in SCSS and Javascript!</li>
-<li class="my-md-2">Skilled in SVG graphics, web animations and utilizing API's!</li>
+<div class="jumbotron jumbotron-fluid">
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3" id="skills">My Skills!</h1>
+<ul class="text-dark px-2 py-1 rounded-3 fs-3 mt-3 mb-5" style="background-color: #FFA500;">
+<li class="fw-light py-1">⮕Skilled in all things HMTL and CSS!</li>
+<li class="fw-light py-1">⮕Accomplished in responsive design!</li>
+<li class="fw-light py-1">⮕Skilled in all web-based forms!</li>  
+<li class="fw-light py-1">⮕Accomplished in SCSS and Javascript!</li>
+<li class="fw-light py-1">⮕Skilled in SVG graphics, web animations and utilizing API's!</li>
 </ul>
-<img class="bg-light rounded-circle mb-md-5" src="images/lightbulb.png" style="margin-left: 120px;">
+<div class="lightbulb mx-auto">
+<img class="bg-light rounded-circle" src="images/lightbulb.png">
 </div>
 </div>
-<div class="col-12 col-md-6 mt-5 pt-md-5">
-<img src="images/web-dev.jpg" class="sec-img img-fluid mt-md-4 border-warning border-1" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
-<div class="pt-5">
-<img src="images/web-dev2.jpg" class="sec-img img-fluid mt-md-1 mb-md-5 border-warning border-1" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
 </div>
-<img class="pt-md-5 mt-md-1" src="images/mtn-1.png" style="margin-left:50px">
+<div class="col-12 col-md-6 pb-5">
+<img src="images/web-dev.jpg" class="sec-img img-fluid border-warning border-1 mt-5" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
+<div>
+<img src="images/web-dev2.jpg" class="sec-img img-fluid border-warning border-1 mt-4 mb-5" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
+</div>
 </div>
 </div>
 </div>
 <!--Projects-->  
-<div class="container-fluid px-4 px-lg-5 projects">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-5 projects">
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
-<h1 class="display-4 rounded-3 bg-light mb-4 mt-5" id="projects">My Projects!</h1>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3" id="projects">My Projects!</h1>
 <!--Personal Page-->  
-<div class="card green text-light mb-5 border border-dark border-4 pb-2">
+<div class="card text-light border border-dark border-4 mb-3">
 <img src="images/personal.jpg" class="card-img-top border border-light border-2" alt="picture of my first personal webpage project">
 <div class="card-body">
 <h5 class="card-title">Personal Page</h5>
@@ -160,10 +196,12 @@ Go to project!
 </div>
 </div>
 </div>
-<div class="col-12 col-md-6 mt-md-4">
-<img class="" src="images/web-dev3.png" style="margin-left: 100px;">
+<div class="col-12 col-md-6">
+<div class="web-dev3">
+<img src="images/web-dev3.png" class="web-devel">
+</div>
 <!--Responsive Layout-->  
-<div class="card brown text-light mb-5 border border-dark border-4 pb-2 mt-md-3">
+<div class="card green text-light border border-dark border-4 pb-2 mt-md-3 mb-3">
 <img src="images/responsive.jpg" class="card-img-top border border-light border-1" alt="picture of my responsive layout project">
 <div class="card-body">
 <h5 class="card-title">Responsive Layout</h5>
@@ -177,7 +215,7 @@ Go to project!
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
 <!--Registration Form-->  
-<div class="card green-1 text-dark mb-5 border border-dark border-4 pb-2">
+<div class="card green-1 text-dark mb-3 border border-dark border-4 pb-2">
 <img src="images/regform.jpg" class="card-img-top border border-light border-2" alt="picture of my registration form project">
 <div class="card-body">
 <h5 class="card-title">Registration Form</h5>
@@ -189,7 +227,7 @@ Go to project!
 </div>
 <div class="col-12 col-md-6">
 <!--Web Style Guide--> 
-<div class="card mb-5 text-dark border border-dark border-4 pb-2">
+<div class="card mb-3 text-dark border border-dark border-4 pb-2">
 <img src="images/webguide.jpg" class="card-img-top border border-light border-2" alt="picture of my web guide project">
 <div class="card-body">
 <h5 class="card-title">Web Style Guide</h5>
@@ -203,7 +241,7 @@ Go to project!
 <div class="row align-items-start">
 <div class="col-12 col-md-6">  
 <!--Interactive Photo Gallery-->  
-<div class="card green text-light mb-5 border border-dark border-4 pb-2">
+<div class="card green text-light mb-3 border border-dark border-4 pb-2">
 <img src="images/interactive.jpg" class="card-img-top border border-light border-2" alt="picture of my interactive photo gallery project">
 <div class="card-body">
 <h5 class="card-title">Interactive Photo Gallery</h5>
@@ -215,7 +253,7 @@ Go to project!
 </div>
 <div class="col-12 col-md-6">
 <!--Game Show App-->  
-<div class="card brown text-light mb-5 border border-dark border-4 pb-2">
+<div class="card brown text-light mb-3 border border-dark border-4 pb-2">
 <img src="images/gameshow.jpg" class="card-img-top border border-light border-2" alt="picture of my game show project">
 <div class="card-body">
 <h5 class="card-title">Game Show App</h5>
@@ -229,7 +267,7 @@ Go to project!
 <div class="row align-items-start">
 <div class="col-12 col-md-6 pb-md-5"> 
 <!--Web App Dashboard-->  
-<div class="card green-1 text-dark mb-5 border border-dark border-4 pb-2">
+<div class="card green-1 text-dark mb-3 border border-dark border-4 pb-2">
 <img src="images/webapp.jpg" class="card-img-top border border-light border-2" alt="photo of my web app dashboard project">
 <div class="card-body">
 <h5 class="card-title">Web App Dashboard</h5>
@@ -241,7 +279,7 @@ Go to project!
 </div>
 <div class="col-12 col-md-6"> 
 <!--API Project-->  
-<div class="card mb-5 border border-dark border-4 pb-2">
+<div class="card mb-3 border border-dark border-4 pb-2 mb-5">
 <img src="images/api.jpg" class="card-img-top border border-light border-2" alt="picture of my API project">
 <div class="card-body">
 <h5 class="card-title">API Project</h5>
@@ -250,46 +288,44 @@ Go to project!
 </a>
 </div>
 </div>
-<img src="images/trees.png" style="margin-left: 90px;">
 </div>    
 </div>
 </div>
 <!--Contact--> 
-<div class="container-fluid px-4 px-lg-5 pt-md-5 contact-div">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 contact-div">
 <div class="row">
-<div class="col pb-md-2">
+<div class="col-md">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="display-4 rounded-3 bg-light mb-5" id="contact">I am always available for contact!</h1>
-<div class="px-2 rounded-3 text-light" style="background-color: green;">
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3" id="contact">I am always available for contact!</h1>
+<div class="px-2 py-1 rounded-3 text-light mb-3 fs-3" style="background-color: green;">
 <p class="text">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
 <p class="text">Email me below! 
 <p class="text">Thanks and have a great day!</p>
 </div>
 </div>
 </div>
-<div class="col pt-md-5">
-<div class="col-lg-5">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="btn-2 text contact btn btn-danger justify-content-md-start col-10 py-4 mb-5 rounded-pill border border-warning border-1" type="button">Email me! <span class="wave">👋</span></button>
+<div class="col-md">
+<div>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button">Email me! <span class="wave">👋</span></button>
 </div>
 <div>
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="btn-2 text contact btn btn-danger justify-content-md-start col-10 py-4 mb-5 rounded-pill border border-1" type="button" style="background-color:#FD5F00;">Click here for my resume!</button>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-1" type="button" style="background-color:#FD5F00;">Click here for my resume!</button>
 </div>
-<img src="images/mtn-1.png" class="mt-md-5 pt-md-5" style="margin-left:90px">
 </div>
 </div>
 </div>
 <!--Footer--> 
 <footer> 
-<div class="container-fluid px-4 px-lg-5" style="background-color: #4c4177;
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-2" style="background-color: #4c4177;
 background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
-<div class="row pt-3">
-<div class="col">
+<div class="row">
+<div class="col thanks">
 <p class="footer-text text-light">Thanks for reading!</p>
 </div>
-<div class="col">
+<div class="col email">
 <p class="pt-1 text-light">jamiergeche@gmail.com</p>
 </div>
-<div class="col">
+<div class="col links pl-5">
 <a href="">
 <img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="">
 </a>
@@ -318,4 +354,4 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body> 
-</html>    
+</html>   

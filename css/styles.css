@@ -200,6 +200,30 @@ height: 62px;
 .thanks, .email {
     display: block; 
 }
+  
+.email {
+    text-align: center;
+}
+  
+.about-me {
+    font-size: 20px;
+}
+
+.paint {
+    text-align: left;
+}
+  
+.pers { 
+    margin-top: 65px;
+}
+  
+.sec-button {
+    margin-top: 100px;
+}
+  
+.footer-text {
+    font-size: 20px;
+}
 
 @media only screen and (min-width: 1024px) {
 

@@ -12,7 +12,7 @@ a {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 /* Color Styles */
@@ -32,66 +32,64 @@ background-color: #2f4353;
 background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
 color: #000;
 font-weight: 800;
-height: 45px;
+height: 62px;
 }
 
 .about, .projects {
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
-}
-
-.green {
-  background-color: #06470c;
-}
-
-.green-1 {
-  background-color: #089404;
-}
-
-.brown {
-  background-color: #53350A;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)         100%);
 }
 
 /* Spacing and Sizing Styles */
 
-.icon-1 {
-  width: 32px;
+.lightbulb {
+  text-align: center; 
 }
 
-.prof-avatar {
-  width: 75%;
-  margin-bottom: 65px;
-  margin-left: 37px;
+.navbar-2 {
+  display: none;
+}
+
+.web-dev3 {
+  display: none;
+}
+
+.icon-1 {
+  width: 32px;
 }
 
 .btn {
   display: block;
 }
 
-.prof-pic {
-  width: 75%;
-  margin-bottom: 40px;
-  margin-left: 37px;
+.avatar {
+  text-align:center;
+  }
+
+.sun-1 {
+  text-align: left;
 }
 
-.artpic1 {
-  width: 85%;
+.paint {
+  text-align: center;
+}
+
+.thanks, .email {
+  display: none;
+}
+
+.links {
+  text-align: center;
 }
 
 /* Font Styles */
 
 .jamie {
   font-family: 'Dancing Script', cursive;
-  font-size: 40px;
 }
 
 .footer-text {
   font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-}
-
-.text {
-  font-size: 22px;
 }
 
 /* Border Styles */
@@ -110,7 +108,6 @@ height: 45px;
 }
 
 .card {
-  background-color: #855E42;
   border-radius: 25px;
 }
 
@@ -145,8 +142,6 @@ height: 45px;
 
 .cloud {
   animation: cloud 10s linear both infinite alternate;
-  width: 100px;
-  float: left;
 }
 
 .sun {
@@ -183,54 +178,30 @@ height: 45px;
 
 @keyframes cloud {
     from{transform: translateX(25px);}
-    to{transform: translateX(125px);}
+    to{transform: translateX(115px);}
 }
 
 @media only screen and (min-width: 768px) {
 
-.prof-avatar {
-  width: 75%;
-  margin-bottom: 15px;
-  margin-left: 37px;
-} 
-
-.text-1 {
-  font-size: 19px;
-}   
-
-.btn-2 {
-  margin-left: 40px;
+  
+.navbar-2 {
+    display: flex;
+  }
+  
+.navbar-1 {
+    display: none;
 }
   
-.mountain {
-  margin-left:90px;  
+.web-dev3 {
+    display: block;
+    text-align: center;
 }
+  
+.thanks, .email {
+    display: block; 
 }
 
 @media only screen and (min-width: 1024px) {
 
-.text {
-    font-size: 37px;
+  
 }
-  
-.prof-avatar {
-    width: 55%;
-    margin-left: 160px;
-    margin-top: -100px;
-}
-  
-.cloud {
-    width: 30%;
-}
-  
-.mtn {
-    width: 28%;
-}
-  
-.mountain {
-    width: 70%;
-    margin-left: 175px;
-}
-  
-  
-}  

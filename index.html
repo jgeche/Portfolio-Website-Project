@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!--bootstrap CSS-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!--CSS/Fonts-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,39 +18,39 @@
 <!--navigation for desktop and tablet-->  
 <nav class="navbar-2 navbar-expand-sm navbar navbar-light fixed-top">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
-<a class="navbar-brand" href="#top" data-mt-duration="300"><img class="img-fluid home rounded-circle mb-2 mt-md-2" src="images/home.png"></a>
+<a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home rounded-circle mb-2 mt-md-2"alt="blue home icon that returns you to the top of the page" src="images/home.png"></a>
 <p class="fs-1 jamie pt-md-3">Jamie Geche</p>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <div class="container justify-content-start">
-<ul class="navbar-nav justify-content-end">
-<li class="nav-item">
-<a class="nav-link" tabindex="0" data-toggle="popover" data-trigger="hover" data-content="About me" href="#about" data-mt-duration="300"><img class="img-fluid about rounded-circle" src="images/me.jpg"></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#skills" data-mt-duration="300"><img class="img-fluid skills rounded-circle" src="images/skills.png"></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#projects" data-mt-duration="300"><img class="img-fluid projects rounded-circle" src="images/html.png"></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="art" data-mt-duration="300"><img class="img-fluid art rounded-circle bg-light" src="images/camera.png"></a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#contact" data-mt-duration="300"><img class="img-fluid phone rounded-circle" src="images/phone.png"></a>
-</li>
-<li>
-<img class="sun img-fluid" src="images/sun.png">
-</li>
-</ul>
+<div class="navbar-nav justify-content-end">
+<div class="nav-item">
+<a href="#about" class="nav-link" data-mt-duration="300" data-toggle="tooltip" title="About Me"><img class="img-fluid about rounded-circle" alt="black and white circular icon with me in the middle, which takes you to about me section" src="images/me.jpg"></a>
+</div>
+<div class="nav-item">
+<a class="nav-link" href="#skills" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Skills"><img class="img-fluid skills rounded-circle" alt="dark blue circular icon with gears in the middle, which takes you my skills section" src="images/skills.png"></a>
+</div>
+<div class="nav-item">
+<a class="nav-link" href="#projects" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Projects"><img class="img-fluid projects rounded-circle" alt="light blue circular icon displaying the text HMTL, which takes you to the projects section" src="images/html.png"></a>
+</div>
+<div class="nav-item">
+<a class="nav-link" href="#art" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Photos"><img class="img-fluid art rounded-circle bg-light" alt="circular white icon with grey and orange camera in the middle, which takes you to the photos section" src="images/camera.png"></a>
+</div>
+<div class="nav-item">
+<a class="nav-link" href="#contact" data-mt-duration="300" data-toggle="tooltip" data-placement="right" title="Contact Me"><img class="img-fluid phone rounded-circle" alt="yellow circular icon with phone in the middle, which takes you to the contact section" src="images/phone.png"></a>
+</div>
+<div>
+<img class="sun img-fluid" alt="yellow sun which continually spins on its axis" src="images/sun.png">
+</div>
+</div>
 </div>
 </div>
 </div>
 </nav>
 <!--navigation for mobile--> 
-<nav class="navbar-1 navbar-expand-sm navbar navbar-light fixed-top">
+<nav class="navbar-1 navbar navbar-light fixed-top">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
 <a class="navbar-brand fs-1 jamie" href="#top" data-mt-duration="300">Jamie Geche 
 </a>
@@ -60,19 +61,19 @@
 <div class="container justify-content-start">
 <ul class="navbar-nav justify-content-end bg-light rounded-1" style="background-color: #2f4353;
 background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
-<li class="nav-item">
+<li class="nav-item-2">
 <a class="nav-link px-2 text-dark" href="#about" data-mt-duration="300">About Me!⭐</a>
 </li>
-<li class="nav-item">
+<li class="nav-item-2">
 <a class="nav-link px-2 text-dark" href="#skills" data-mt-duration="300">My Skills!⭐</a>
 </li>
-<li class="nav-item">
+<li class="nav-item-2">
 <a class="nav-link px-2 text-dark" href="#projects" data-mt-duration="300">My Projects!⭐</a>
 </li>
-<li class="nav-item">
+<li class="nav-item-2">
 <a class="nav-link px-2 text-dark" href="art" data-mt-duration="300">My Photos!⭐</a>
 </li>
-<li class="nav-item">
+<li class="nav-item-2">
 <a class="nav-link px-2 text-dark" href="#contact" data-mt-duration="300">Contact Me!⭐</a>
 </li>
 </ul>
@@ -86,11 +87,11 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <div class="col-md pt-4 mt-md-5 mt-lg-4 pt-lg-5">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-md-5">Hello everyone!</h1>
-<p class="text hello rounded-3 fw-light text-dark px-2 py-1 fs-3 mb-md-5 mt-lg-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<p class="text hello fs-xl-5 rounded-3 fw-light text-dark px-2 py-1 fs-3 mb-md-5 mt-lg-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
 </div>  
 <!--contact button-->
-<div class="pt-lg-3 container-fluid">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 fs-3" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
+<div class="pt-lg-3 pt-xl-5 d-flex contact-1">
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 mt-xl-3 fs-3" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
 </div>
 </div>
 <!--avatar profile-->
@@ -142,10 +143,10 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 </div>
 <div class="col-md">
 <div class="paint pt-3 pb-4 pt-md-0 pb-md-3">
-<img src="images/paintbrush.png">
+<img alt="brown paintbrush with red, green and blue paint which animates back and fourth like a brushstroke" src="images/paintbrush.png">
 </div>
 <div class="pic2 mx-auto">
-<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle mb-4" alt="Profile picture of Jamie">
+<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle mb-4" alt="Profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
 <div class="pic3 mx-auto pb-5">
 <img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mb-4" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
 </div>
@@ -160,18 +161,18 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-lg-5" id="skills">My Skills!</h1>
 <ul class="text-dark px-2 py-1 rounded-3 fs-3 mt-3 mb-5" style="background-color: #FFA500;">
-<li class="fw-light py-1">⮕Skilled in all things HMTL and CSS!</li>
-<li class="fw-light py-1">⮕Accomplished in responsive design!</li>
-<li class="fw-light py-1">⮕Skilled in all web-based forms!</li>  
-<li class="fw-light py-1">⮕Accomplished in SCSS and Javascript!</li>
-<li class="fw-light py-1">⮕Skilled in SVG graphics, web animations and utilizing API's!</li>
+<li class="fw-light py-1 py-xl-2">⮕Skilled in all things HMTL and CSS!</li>
+<li class="fw-light py-1 py-xl-2">⮕Accomplished in responsive design!</li>
+<li class="fw-light py-1 py-xl-2">⮕Skilled in all web-based forms!</li>  
+<li class="fw-light py-1 py-xl-2">⮕Accomplished in SCSS and Javascript!</li>
+<li class="fw-light py-1 py-xl-2">⮕Skilled in SVG graphics, web animations and utilizing API's!</li>
 </ul>
-<div class="lightbulb mx-auto mb-lg-4">
-<img class="bg-light rounded-circle mt-lg-3 mb-md-5" src="images/lightbulb.png">
+<div class="light mx-auto mb-lg-4">
+<img class="lightbulb rounded-circle mt-lg-3 mb-md-5" alt="white lightbulb which animates to yellow continuously" src="images/lightbulb.png">
 </div>
 </div>
 </div>
-<div class="col-12 col-md-6 pb-5 pt-md-5">
+<div class="col-12 col-md-6 pb-5 pt-md-5 webdev">
 <img src="images/web-dev.jpg" class="sec-img img-fluid border-warning border-1 mt-5" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
 <div>
 <img src="images/web-dev2.jpg" class="sec-img img-fluid border-warning border-1 mt-4 mb-5 mt-md-5" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
@@ -199,7 +200,7 @@ Go to project!
 </div>
 <div class="col-12 col-md-6">
 <div class="web-dev3">
-<img src="images/web-dev3.png" class="web-devel pb-md-4">
+<img src="images/web-dev3.png" alt="blue computer and pencil with web development work on computer which animates circular across the x axis" class="web-devel pb-md-4">
 </div>
 <!--Responsive Layout-->  
 <div class="card text-dark border border-dark border-4 pb-2 mt-md-3 mb-3" style="background-color:#3ded97">
@@ -327,8 +328,8 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 <p class="pt-1 text-light" style="font-family:roboto;">jamiergeche@gmail.com</p>
 </div>
 <div class="col links pl-5 d-flex justify-content-around">
-<a href="">
-<img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="">
+<a href="https://www.behance.net/theSketch">
+<img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular behance icon button">
 </a>
 <a href="https://www.facebook.com/jamie.sketch">
 <img src="images/facebook.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
@@ -351,8 +352,8 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 </footer>
 <!--optional Javascript-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="js/app.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="js/app.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body> 
 </html>

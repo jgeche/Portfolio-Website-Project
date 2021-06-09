@@ -22,9 +22,9 @@ ul {
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
-.footer-1 {
-  background-color: #ffffff;
-  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+.about, .projects {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
 }
 
 .navbar {
@@ -33,11 +33,6 @@ ul {
   color: #000;
   font-weight: 800;
   height: 62px;
-}
-
-.about, .projects {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
 }
 
 .tooltip-inner {
@@ -90,10 +85,6 @@ ul {
 
 .avatar {
   text-align:center;
-  }
-
-.sun-1 {
-  text-align: left;
 }
 
 .paint {
@@ -110,6 +101,14 @@ ul {
 
 .mtn-2 {
   display: none;
+}
+
+.pic2, .pic3 {
+   text-align: center;
+ }
+
+.hello {
+  font-size: 1.4em;
 }
 
 /* Font Styles */
@@ -129,12 +128,8 @@ ul {
   border-radius: 10px;
 }
 
-.prof-avatar, .contact, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
+.prof-avatar, .contact-button, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
   box-shadow: 5px 5px 5px #000;
-}
-
-.fs-2 {
-  border-radius: 25px;
 }
 
 .card {
@@ -153,16 +148,16 @@ ul {
 }
 
 /* Animations */
-  
-.icon-1, .home, .nav-item, .fs-6, .fs-2, .button, .social, .contact, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
+
+.icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
 }
 
-.icon-1:hover, .home:hover, .nav-item:hover, .fs-6:hover, .fs-2:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
+.icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic:hover, .card-img-top:hover, .btn-1:hover { 
   transform: scale(1.1); 
 }
 
-.contact:hover {
+.contact-button:hover {
   transform: scale(1.3);
 }
 
@@ -214,16 +209,6 @@ ul {
 }
 }
 
-@keyframes cloud {
-  from{transform: translateX(25px);}
-  to{transform: translateX(115px);}
-}
-
-@keyframes paint {
-  from{transform: translateX(25px);}
-  to{transform: translateX(35px);}
-}
-
 @keyframes light {
   from {background-color: #FFF;}
   to {background-color: #FFFF00;}
@@ -241,6 +226,8 @@ ul {
     transform: rotatey(360deg);
    }
 }
+
+/* Media Queries */
 
 @media only screen and (min-width: 768px) {
  
@@ -264,96 +251,160 @@ ul {
 .email {
   text-align: center;
 }
-  
-.about-me {
-  font-size: 1.25rem;
-}
 
 .paint {
   text-align: left;
 }
+
+.footer-text, .email {
+  font-size: 19px;
+}
+
+.footer-text {
+  padding-top: 5px;
+}
   
-.pers { 
-  margin-top: 65px;
+.about-me {
+  font-size: 20px;
+}
+  
+.pers {
+  margin-top: 3.9em;
+}
+  
+.mtn-1 {
+  margin-left: 4em;
 }
   
 .sec-button {
-  margin-top: 100px;
+  margin-top: 5em;
 }
   
-.footer-text {
-  font-size: 16px;
+.hello {
+  font-size: 1.58em;
 }
   
-.mtn-1 {
-  margin-left: 50px;
-  }
-
 @media only screen and (min-width: 992px) {
 
 .cloud {
-   width: 30%;
+  width: 30%;
 }
     
 .icon-1 {
-   width: 36px;
+  width: 36px;
 }
-    
-.text {
-   font-size: 22;
-}
-    
+       
 .mtn-2 {
-   display: block;
-   float: right;
-   margin-right: 16px;
+  display: block;
+  float: right;
+}
+    
+.mtn-1 {
+  margin-left: 1em;
 }
 
-.mtn-1 {
-   margin-left: 24px;
-}
-    
 .about-me {
-  font-size: 1.40rem;
+  font-size: 22px;
 }
     
-.pic2, .pic3 {
-   text-align: center;
- }
-   
-.pers { 
-   margin-top: 40px;
-} 
+.pers {
+  margin-top: 3.2em;
+}
+    
+.btn-1 {
+  width: 50%;
+  margin-left: 6em;
+}
+    
+.hello {
+  font-size: 1.65em;
+}
+    
+.cloud {
+  animation: cloud 10s linear both infinite alternate;
+}
+
+.paint {
+  animation: paint 1.1s linear both infinite alternate;
+}
+
+@keyframes cloud {
+  from{transform: translateX(25px);}
+  to{transform: translateX(55px);}
+}
+
+@keyframes paint {
+  from{transform: translateX(25px);}
+  to{transform: translateX(35px);}
+}
+}
     
 @media only screen and (min-width: 1200px) {
-
-.mtn-1 {
-   margin-left: 64px;
-}
  
 .webdev {
    text-align: center;
  }
-      
- .about-me {
-  font-size: 1.55rem;
-}
-      
-.hello, .text {
-  font-size: 2rem;
-}
- 
- .pers { 
-   margin-top: 36px;
-}   
 
 .footer-text, .email {
    font-size: 20px;
 }
+      
+.fs-3 {
+   font-size: 2rem;
 }
-@media only screen and (min-width: 1200px) {
-
+      
+.hello {
+  font-size: 1.7em;
+}   
+ 
+.about-me {
+  font-size: 25px;
+}
+    
 .mtn-1 {
-      margin-left: 140px;
+  margin-left: 4em;
+}
+
+.mtn-2 {
+  margin-right: 0.75em;
+}
+
+.skill-text {
+  font-size: 30px;
+}
+
+.pers {
+  margin-top: 2.8em;
+}
+    
+.btn-1 {
+  margin-left: 8.5em;
+}
+}
+  
+@media only screen and (min-width: 1400px) {
+ 
+.hello {
+  font-size: 2.1em;
+}
+    
+.mtn-1 {
+  margin-left: 7.5em;
+}
+    
+.contact-1 {
+  margin-top:-22px;
+}
+    
+.about-me {
+  font-size: 27px; 
+}
+
+.skill-text {
+  font-size: 32px;
+}
+    
+.btn-1 {
+  margin-left: 10em;
 }
 }

@@ -12,3 +12,8 @@ anime.timeline({loop: false})
     duration: 1500,
     delay: (el, i) => 70*i
   });
+
+//Tooltip Popup Text Windows for Navigation
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

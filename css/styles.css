@@ -26,7 +26,8 @@ ul {
   background-color: #09c7fb;
   background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
   font-weight: 800;
-  height: 62px;
+  height: 65px;
+  margin-top: -12px;
 }
 
 .contact-link {
@@ -48,8 +49,19 @@ ul {
   text-align: center;
 }
 
-.nav-link {
-  font-family: 'Open Sans', sans-serif;
+.contact-button {
+  background-color:#f94327;
+  background-image: linear-gradient(316deg, #f94327 0%, #ff7d14 74%);
+}
+
+.social {
+  background-color: #00bfb2;
+  background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+}
+
+.logo-div {
+  background-color: #00bfb2;
+  background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
 }
 
 .hello {
@@ -126,14 +138,91 @@ ul {
   justify-content: space-evenly;
 }
 
+.jamie-div {
+  padding-top: 12px;
+  margin-right: 65px;
+}
+
+.intro {
+  padding-top: 4em;
+}
+
+.contact-1 {
+  padding-bottom: 4em;
+}
+
+.avatar {
+  margin-bottom: 3em;
+}
+
+.social {
+  margin-bottom: 4em;
+}
+
+.col-about, .col-about-1, .col-about-2 {
+  padding-top: 3em;
+}
+
+.pic2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about-me {
+  margin-bottom: 2em;
+}
+
+.about-pic {
+  margin-bottom: 2em;
+}
+
+.skills, .projects {
+  padding-top: 3em;
+}
+
+.pers {
+  margin-top: 2em;
+}
+
+.card {
+  margin-bottom: 3em;
+}
+
+.exp {
+  margin-top: 3em;
+  padding-left: 0.75em;
+  padding-right: 0.5em;
+}
+
+.treehouse {
+  width: 100px;
+}
+
+.tree {
+  margin-bottom: 1.2em;
+}
+
+.opening {
+  margin-bottom: 2em;
+}
+
+.pic-4, .pic-3 {
+  width:100px;
+}
+
 /* Font Styles */
 
 .jamie {
   font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
 }
 
 .footer-text {
   font-family: 'Dancing Script', cursive;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Border Styles */
@@ -256,100 +345,190 @@ ul {
   text-align: center;
 }
 
-.footer-text, .email {
-  font-size: 19px;
+.icon-1 {
+  width: 36px;
+}
+  
+.navbar {
+  margin-top: 0;
+}
+    
+.jamie-div {
+  padding-top: 20px;
+  margin-right: 0;
 }
 
+.intro {
+  padding-top: 6.25em;
+  padding-bottom: 3em;
+}
+  
+.jamie {
+  font-size: 2em;
+}
+  
+.hello {
+  margin-top: 2em;
+}
+  
+.contact-1 {
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.avatar {
+  margin-bottom: 3em;
+  margin-top: 5em;
+}
+
+.all-about {
+  width: 300px;
+}
+  
+.skills-heading {
+  width: 250px;
+}
+  
+.skill-text {
+  font-size: 1.5em;
+}
+  
+.exp {
+  margin-bottom: 2em;
+}
+  
+.pic-h, .pic-js {
+  width: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ 
+.web-dev3 {
+  padding-bottom: 12px;
+  margin-top: -0.60em;
+}
+  
+.sec-button {
+  margin-top: 100px;
+}
+  
 .footer-text {
   padding-top: 5px;
 }
   
-.about-me {
-  font-size: 20px;
-}
-  
-.pers {
-  margin-top: 3.9em;
-}
-  
-.mtn-1 {
-  margin-left: 4em;
-}
-  
-.sec-button {
-  margin-top: 5em;
-}
-  
-.hello {
-  font-size: 1.58em;
-}
-  
 @media only screen and (min-width: 992px) {
-
-    
-.icon-1 {
-  width: 36px;
-}
-
-.about-me {
-  font-size: 22px;
-}
-    
-.pers {
-  margin-top: 3.2em;
-}
     
 .btn-1 {
   width: 50%;
+}
+  
+.hello {
+  margin-top: 1.8em;
+  font-size: 1.6em;
+}
+
+.avatar {
+  margin-top: 5.1em;
+}
+
+.all-about {
+  width: 100%;
+  font-size: 2.65em;
+}
+    
+.about-pic {
+  margin-top: 6em;
+}
+    
+.about-me-3 {
+  margin-top: 7em;
+}
+     
+.skills-heading {
+  width: 100%;
+}
+  
+.skill-text {
+  font-size: 1.3em;
+}
+  
+.exp {
+  margin-bottom: 2em;
+}
+  
+.pic-h, .pic-js {
+  width: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ 
+.web-dev3 {
+  padding-bottom: 12px;
+  margin-top: -0.60em;
+}
+  
+.sec-button {
+  margin-top: 100px;
+}
+  
+.footer-text {
+  padding-top: 5px;
+}
+    
+.logo-div {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+    
+.pers-text {
+  padding-bottom: 15px;
+}
+    
+.btn {
   margin-left: 6em;
 }
     
-.hello {
-  font-size: 1.65em;
-}
-    
-.opening {
-  margin-top: 25px;
-}
+.res-button {
+  margin-bottom: 8px;
+}  
 }
     
 @media only screen and (min-width: 1200px) {
  
 .webdev {
    text-align: center;
- }
+ }   
 
-.footer-text, .email {
-   font-size: 20px;
-}
-      
-.fs-3 {
-   font-size: 2rem;
-}
-      
-.hello {
-  font-size: 1.7em;
-}   
- 
-.about-me {
-  font-size: 25px;
-}
-
-.skill-text {
-  font-size: 25px;
-}
-
-.pers {
-  margin-top: 2.8em;
+.contact-1 {
+   margin-top: 40px;
 }
     
-.btn-1 {
-  margin-left: 8.5em;
+.skill-text {
+  font-size: 1.5em;
+}
+    
+.skills {
+  padding-bottom: 3em;
+}
+    
+.pic-h, .pic-js {
+  padding-top: 0px;
+}
+
+.pic-b {
+  padding-top: 8px;
 }
     
 .treehouse {
   width: 115px;
+} 
+    
+.pers-text {
+  padding-bottom: 0px;
 }
+    
+.btn {
+  margin-left: 8em;
 }
   
 @media only screen and (min-width: 1400px) {
@@ -358,16 +537,8 @@ ul {
   font-size: 2em;
 }
     
-.contact-1 {
-  margin-top:-22px;
-}
-    
 .about-me {
   font-size: 27px; 
-}
-    
-.btn-1 {
-  margin-left: 10em;
 }
     
 .pic {
@@ -381,12 +552,48 @@ ul {
 .pic-2 {
   width: 150px;
 }
- 
-.about-pic {
-  margin-top: 100px;
+
+.avatar {
+  margin-top: 7em;
 }
-    
+      
+.social-1 {
+  margin-top: 6em;
+}
+      
+.about-me {
+  font-size: 0;
+}
+      
+.exp {
+  margin-top: 3em;
+}
+      
+.col-about-1 {
+  margin-top: -1.2em;
+}
+      
+.col-about-2 {
+  padding-top: 8.5em;
+}
+      
 .about-me-3 {
   margin-top: 90px;
+}
+    
+.btn {
+  margin-left: 9.5em;
+}
+ 
+.thanks {
+  font-size: 1.3em;
+}
+      
+.email {
+  padding-top: 8px;
+}
+      
+.pic-b {
+  margin-top: -5px;
 }
 }

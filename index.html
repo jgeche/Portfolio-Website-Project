@@ -13,114 +13,76 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--Navigation For Desktop and Tablet-->  
-<nav class="navbar-2 navbar-expand-sm navbar navbar-light fixed-top">
+<!--Navigation-->  
+<nav class="navbar navbar-expand-md navbar navbar-light fixed-top">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
-<a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home rounded-circle mb-2 mt-md-2"alt="blue home icon that returns you to the top of the page" src="images/home.png"></a>
-<p class="fs-1 jamie pt-md-3">Jamie Geche</p>
+<a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home rounded-circle mb-md-2 mt-md-2"alt="blue home icon that returns you to the top of the page" src="images/home.png"></a>
+<p class="fs-1 jamie pt-3">Jamie Geche</p>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <div class="container justify-content-start">
 <div class="navbar-nav justify-content-end">
-<div class="nav-item">
-<a href="#about" class="nav-link" data-mt-duration="300" data-toggle="tooltip" title="About Me"><img class="img-fluid about rounded-circle" alt="black and white circular icon with me in the middle, which takes you to about me section" src="images/me.jpg"></a>
+<div class="nav-item mx-2 other-link">
+<a href="#about" class="nav-link" data-mt-duration="300">About Me</a>
 </div>
-<div class="nav-item">
-<a class="nav-link" href="#skills" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Skills"><img class="img-fluid skills rounded-circle" alt="dark blue circular icon with gears in the middle, which takes you my skills section" src="images/skills.png"></a>
+<div class="nav-item mx-2 other-link">
+<a class="nav-link" href="#skills" data-mt-duration="300">Skills</a>
 </div>
-<div class="nav-item">
-<a class="nav-link" href="#projects" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Projects"><img class="img-fluid projects rounded-circle" alt="light blue circular icon displaying the text HMTL, which takes you to the projects section" src="images/html.png"></a>
+<div class="nav-item mx-2 other-link">
+<a class="nav-link" href="#projects" data-mt-duration="300">Projects</a>
 </div>
-<div class="nav-item">
-<a class="nav-link" href="#art" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="My Photos"><img class="img-fluid art rounded-circle bg-light" alt="circular white icon with grey and orange camera in the middle, which takes you to the photos section" src="images/camera.png"></a>
-</div>
-<div class="nav-item">
-<a class="nav-link" href="#contact" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Contact Me"><img class="img-fluid phone rounded-circle" alt="yellow circular icon with phone in the middle, which takes you to the contact section" src="images/phone.png"></a>
-</div>
-<div>
-<img class="sun img-fluid" alt="yellow sun which continually spins on its axis" src="images/sun.png">
+<div class="nav-item mx-2 contact-link">
+<a class="nav-link" href="#contact" data-mt-duration="300">Contact</a>
 </div>
 </div>
-</div>
-</div>
-</div>
-</nav>
-<!--navigation for mobile--> 
-<nav class="navbar-1 navbar navbar-light fixed-top">
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5">
-<a class="navbar-brand fs-1 jamie" href="#top" data-mt-duration="300">Jamie Geche 
-</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<div class="container justify-content-start">
-<ul class="navbar-nav justify-content-end bg-light rounded-1" style="background-color: #2f4353;
-background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
-<li class="nav-item-2">
-<a class="nav-link px-2 text-dark" href="#about" data-mt-duration="300">About Me!😀</a>
-</li>
-<li class="nav-item-2">
-<a class="nav-link px-2 text-dark" href="#skills" data-mt-duration="300">My Skills!💡</a>
-</li>
-<li class="nav-item-2">
-<a class="nav-link px-2 text-dark" href="#projects" data-mt-duration="300">My Projects! 💻</a>
-</li>
-<li class="nav-item-2">
-<a class="nav-link px-2 text-dark" href="art" data-mt-duration="300">My Photos!📸</a>
-</li>
-<li class="nav-item-2">
-<a class="nav-link px-2 text-dark" href="#contact" data-mt-duration="300">Contact Me!☎️</a>
-</li>
-</ul>
 </div>
 </div>
 </div>
 </nav>
 <!--Jumbotron-->     
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pb-lg-3 intro">
-<div class="row pt-5">
-<div class="col-md pt-4 mt-md-5 mt-lg-4 pt-lg-5">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pb-5 intro">
+<div class="row pt-5 pb-5">
+<div class="col-md mt-lg-4 pt-lg-5">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-md-5">Hello everyone!</h1>
-<p class="hello fs-xl-5 rounded-3 fw-light text-dark px-2 py-1 mb-md-5 mt-lg-5" style="background-color:#77dd77">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-lg-5">Hello everyone!</h1>
+<p class="hello fw-light text-dark px-2 py-1 mb-lg-5 mt-lg-5 border border-2 border-danger">My name is Jamie and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, Sass and more and I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me!</p>
 </div>  
 <!--contact button-->
 <div class="pt-lg-3 pt-xl-5 d-flex contact-1">
-<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 mt-xl-3 fs-3" type="button" style="background-color:#FD5F00;">Contact me!<span class="wave">👋</span></button>
+<button onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 mt-xl-3 fs-3" type="button" style="background-color:#f94327;
+background-image: linear-gradient(316deg, #f94327 0%, #ff7d14 74%);">Contact me!<span class="wave">👋</span></button>
 </div>
 </div>
 <!--avatar profile-->
-<div class="col-md pt-4 pt-lg-0">
-<div>
-<img src="images/cloud.jpg" class="cloud img-fluid">
-</div>
-<div class="avatar">
-<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
+<div class="col-md pt-5 pt-xl-5 pt-lg-1 mt-2">
+<div class="avatar mt-lg-5 pt-lg-5">
+<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2 mt-lg-4 mb-lg-5" alt="cartoon Avatar of Jamie, who has long reddish brown hair mustache with brown glasses, a grey jacket and orange t-shirt">
 </div>
 <!--Social media icons-->
-<img src="images/mtn.png" class="mtn img-fluid" style="margin-left:10px;">
-<img src="images/mtn.png" class="mtn mtn-1 img-fluid">
-<img src="images/mtn.png" class="mtn mtn-2 img-fluid">
-<div class="social rounded-pill bg-secondary mb-5">
+<div class="social rounded-pill mt-5" style="background-color: #00bfb2;
+background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);">
 <div class="d-flex justify-content-evenly py-2">
-<a href="https://www.facebook.com/jamie.sketch">
+<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook">
 <img src="images/facebook.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
 </a>
-<a href="https://github.com/jgeche">
+<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github">
 <img src="images/github.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="black and white circular github icon button">
 </a>
-<a href="https://www.instagram.com/sketchtothegech/">
+<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram">
 <img src="images/insta.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="purple and yellow circular instagram icon button">
 </a>
-<a href="https://twitter.com/JamieRSketch">
+<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter">
 <img src="images/twitter.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular twitter icon button">
 </a>
-<a href="https://www.linkedin.com/in/jamierg/">
+<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn">
 <img src="images/linked-in.jpg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular linked-in icon button">
 </a>
 </div>
@@ -128,28 +90,36 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 </div>
 </div>
 </div>
-<!--About me-->
-<div class="container-fluid about px-sm-1 px-md-4 px-lg-5 pt-5" id="about">
-<div class="row">
-<div class="col-md pt-md-1">
+<!--About me--> 
+<div class="container-fluid about px-sm-1 px-md-4 px-lg-5" id="about">
+<div class="row pt-5 pb-5">
+<div class="col-md pt-4 px-3 pb-4" style="background-color: #045de9;
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-4">All about me!</h1>
-<div class="text-white px-2 pt-1 rounded-3 fs-3 mt-3 mt-md-5" style="background-color:#006400;">
-<p class="fw-light about-me">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
-<p class="fw-light about-me">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
-<p class="fw-light about-me pb-2">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
-</div>
-</div>
-</div>
-<div class="col-md">
-<div class="paint pt-3 pb-4 pt-md-0 pb-md-3">
-<img alt="brown paintbrush with red, green and blue paint which animates back and fourth like a brushstroke" src="images/paintbrush.png">
 </div>
 <div class="pic2 mx-auto">
 <img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle mb-4" alt="Profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
-<div class="pic3 mx-auto pb-5">
-<img src="images/victoria.jpg" class="artpic1 img-fluid border border-warning border-1 mb-4" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front"> 
 </div>
+<div class="text-dark px-2 about-me border border-2 border-danger exp" style="background-color: #ededed;">
+<p class="fw-light fs-4 mt-2 px-2 py-2">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development.</p>
+</div>
+</div>
+<div class="col col-md pt-xl-3">
+<div class="about-pic">
+<img src="images/squamish.jpg" class="img-fluid rounded-3 squamish" alt="photo of the Squamish Chief and forest in Squamish, BC.">
+</div>
+<div class="text-dark about-me" style="background-color: #ededed;">
+<p class="fw-light fs-5 mt-4 px-2 py-2">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer!</p>
+</div>
+</div>
+<div class="col-md pt-4 px-3 pb-4" style="background-color: #8ae9b3;
+background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);">
+<div class="about-me about-pic about-pic-1 mt-5">
+<img src="images/victoria.jpg" class="img-fluid pt-5 rounded-1" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front">
+</div>
+<div class="text-dark about-me-3 about-me" style="background-color: #ededed;">
+<p class="fw-light fs-4 px-2 py-2">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
 </div>
 </div>
 </div>
@@ -157,25 +127,39 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <!--Skills-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-xl-3 skills" id="skills">
 <div class="row">
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-5">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-3 mb-md-5">My Skills!</h1>
-<ul class="text-dark px-2 py-1 rounded-3 fs-3 mt-3 mb-5" style="background-color: #FFA500;">
-<li class="fw-light py-1 py-xl-2 skill-text">⮕Skilled in all things HMTL and CSS!</li>
-<li class="fw-light py-1 py-xl-2 skill-text">⮕Accomplished in responsive design!</li>
-<li class="fw-light py-1 py-xl-2 skill-text">⮕Skilled in all web-based forms!</li>  
-<li class="fw-light py-1 py-xl-2 skill-text">⮕Accomplished in SCSS and Javascript!</li>
-<li class="fw-light py-1 py-xl-2 skill-text">⮕Skilled in SVG graphics, web animations and utilizing API's!</li>
+<ul class="text-dark border border-2 border-danger exp" style="background-color: #ededed;">
+<li class="fw-light skill-text py-2">☑️Very hardworking individual with a background in sales, service and tourism and service industry.</li>
+<li class="fw-light skill-text py-2">☑️Extremely organized, good with deadlines and managing my time.</li>
+<li class="fw-light skill-text py-2">☑️Artistic and designer flair that can translate to all kinds of websites.</li>  
+<li class="fw-light skill-text py-2">☑️Positive and outgoing demeanor who's always looking to go the extra mile for employers and clients.
+<li class="fw-light skill-text py-2">☑️Very tech orientated from an early age, true passion for the tech industry and willingness to learn any program or concept needed to excel in the industry.</li>
 </ul>
-<div class="light mx-auto mb-lg-4">
-<img class="lightbulb rounded-circle mt-lg-3 mb-md-5" alt="white lightbulb which animates to yellow continuously" src="images/lightbulb.png">
 </div>
 </div>
+<div class="col-12 col-md-7">
+<div class="tree">
+<a data-toggle="tooltip" data-placement="bottom" title="Successfully completed Front End Web Development program through Treehouse where I learned most of the concepts listed below."><img class="treehouse" src="images/treehouse.png"></a>
 </div>
-<div class="col-12 col-md-6 pb-5 pt-md-5 mt-md-3 webdev">
-<img src="images/web-dev.jpg" class="sec-img img-fluid border-warning border-1 mt-5" alt="web development decorative photo 1, cartoon of person on computer with web development icons all around him such as HTML, PHP, CSS ect">
-<div>
-<img src="images/web-dev2.jpg" class="sec-img img-fluid border-warning border-1 mt-4 mb-5 mt-md-5" alt="web development decorative photo 2, photo of computer and server and computer icons such as mail and @ symbols">
+<div class="opening fs-4" style="background-color:#ededed">
+<p class="px-2 py-2">My expertise on the following programs and concepts are listed below. Please hover on the images to get a brief summary. A brief summary of my completed program of Front End Web Development through Treehouse is listed above.</p> 
+</div>
+<div class="logo-div social mb-5 mt-5 rounded-pill" style="background-color: #00bfb2;
+background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);">
+<a data-toggle="tooltip" data-placement="top" title="Proficient in all HTML docs, forms and grids."><img class="img-fluid rounded-circle pic mt-3" src="images/html.jpg" alt="red html logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Skilled in all CSS and SCSS capabilites and stylings."><img class="img-fluid rounded-circle pic-1 mt-2" src="images/css.png" alt="blue css logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Accomplished in Javascript functions, event listeners applications to HTML docs."><img class="img-fluid rounded-circle pic mt-3" src="images/js.jpg" alt="yellow javascript logo"></a>  
+<a data-toggle="tooltip" data-placement="top" title="Trained in Bootstrap for building websites from scratch."><img class="img-fluid pic-2" src="images/bootstrap.jpg" alt="purple bootstrap logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Capable of using Git and editing and reviewing projects through Git."><img class="img-fluid pic-1 mt-1" src="images/git.png" alt="red git logo"></a>
+</div>
+<div class="logo-div social mt-5 rounded-pill pt-3 pb-2" style="background-color: #00bfb2; background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);">
+<a data-toggle="tooltip" data-placement="bottom" title="Trained in responsive so all websites can be used in mobile, tablet and desktop computers."><img class="img-fluid rounded-circle pic" src="images/responsive_logo.png" alt="red logo displaying responsive design which has smartphone, tablet and desktop views"></a>    
+<a data-toggle="tooltip" data-placement="bottom" title="Proficient in Chrome Devtools and Firefox Developer Tools for responsive design and troubling shooting CSS and Javascript issues."><img class="img-fluid rounded-circle pic" src="images/dev.png" alt="red and white chrome devtools logo"></a> 
+<a data-toggle="tooltip" data-placement="bottom" title="Skilled in Wordpress applications."><img class="img-fluid rounded-circle pic" src="images/wordpress.png" alt="blue and white wordpress logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Accomplished in using APIs to be utilized on websites and obtain information."><img class="img-fluid rounded-circle pic" src="images/api_logo.jpg" alt="black and api logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Trained in using and modifying SVGs, and using Illustrator and Photoshop applications."><img class="img-fluid rounded-circle pic" src="images/creative_cloud.png" alt="black, white and red creative cloud logo"></a>
 </div>
 </div>
 </div>
@@ -184,7 +168,7 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-5 projects" id="projects">
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
-<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mt-md-1 mb-3 mt-lg-2">My Projects!</h1>
+<h1 class="ml2 text-dark display-4 px-2 py-1 mt-md-1 mb-3 mt-lg-2" style="background-color:lightblue;">My Projects!</h1>
 <!--Personal Page-->  
 <div class="card text-dark border border-dark border-4 mb-3 pers pb-md-2" style="background-color:#b5651d">
 <img src="images/personal.jpg" class="card-img-top border border-light border-2" alt="picture of my first personal webpage project">
@@ -299,7 +283,7 @@ Go to project!
 <div class="col-md pt-xl-4">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-md-5 mb-3">I am always available for contact!</h1>
-<div class="px-2 py-1 rounded-3 text-light mb-3 mt-lg-2 fs-3" style="background-color: green;">
+<div class="px-2 py-1 text-dark mb-3 mt-lg-2 fs-3 contact-text" style="background-color: #ededed;">
 <p class="text">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
 <p class="text">Email me to the right or feel free to take a look at my resume! 
 <p class="text">Thanks and have a great day!</p>
@@ -328,22 +312,22 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);">
 <p class="pt-1 text-light" style="font-family:roboto;">jamiergeche@gmail.com</p>
 </div>
 <div class="col links pl-5 d-flex justify-content-around">
-<a href="https://www.behance.net/theSketch">
+<a href="https://www.behance.net/theSketch" data-toggle="tooltip" data-placement="top" title="Behance">
 <img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular behance icon button">
 </a>
-<a href="https://www.facebook.com/jamie.sketch">
+<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook">
 <img src="images/facebook.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
 </a>
-<a href="https://github.com/jgeche">
+<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github">
 <img src="images/github.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="black and white circular github icon button">
 </a>
-<a href="https://www.instagram.com/sketchtothegech/">
+<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram">
 <img src="images/insta.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="purple and yellow circular instagram icon button">
 </a>
-<a href="https://twitter.com/JamieRSketch">
+<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter">
 <img src="images/twitter.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular twitter icon button">
 </a>
-<a href="https://www.linkedin.com/in/jamierg/">
+<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn">
 <img src="images/linked-in.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular linked-in icon button">
 </a>
 </div>

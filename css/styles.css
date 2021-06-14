@@ -4,7 +4,7 @@
 
 body {
   color: #000;
-  font-family: arial;
+  font-family: 'Roboto Slab', serif;
 }
 
 a { 
@@ -18,26 +18,47 @@ ul {
 /* Color Styles */
 
 .intro, .skills, .contact-div {
-  background-color: #045de9;
-  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
-}
-
-.about, .projects {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 35%, rgba(0,212,255,1)       100%);
+  background-color: #fefefe;
+  background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
 }
 
 .navbar {
-  background-color: #2f4353;
-  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
-  color: #000;
+  background-color: #09c7fb;
+  background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
   font-weight: 800;
   height: 62px;
 }
 
+.contact-link {
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color:#f94327;
+  background-image: linear-gradient(316deg, #f94327 0%, #ff7d14 74%);
+}
+
+.other-link {
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.contact-link, .other-link {
+  width: 100px;
+  text-align: center;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hello {
+  font-size: 1.4em;
+  background-color: #ededed;
+}
+
 .tooltip-inner {
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-color: blue;
   color: #FFF;
 }
 // tooltip placement top
@@ -63,14 +84,6 @@ ul {
 
 /* Spacing and Sizing Styles */
 
-.light {
-  text-align: center; 
-}
-
-.navbar-2 {
-  display: none;
-}
-
 .web-dev3 {
   display: none;
 }
@@ -81,14 +94,11 @@ ul {
 
 .btn {
   display: block;
+  text-align: center;
 }
 
 .avatar {
   text-align:center;
-}
-
-.paint {
-  text-align: center;
 }
 
 .thanks, .email {
@@ -99,16 +109,21 @@ ul {
   text-align: center;
 }
 
-.mtn-2 {
-  display: none;
-}
-
 .pic2, .pic3 {
    text-align: center;
  }
 
-.hello {
-  font-size: 1.4em;
+.about-pic {
+  text-align: center;
+}
+
+.tree {
+  text-align: center;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Font Styles */
@@ -132,6 +147,11 @@ ul {
   box-shadow: 5px 5px 5px #000;
 }
 
+.exp, .contact-text, .hello, .about-me-1, .skill-1 {
+  box-shadow: 5px 5px 5px #D9381E;
+  border-radius: 20px;
+}
+
 .card {
   border-radius: 25px;
 }
@@ -147,13 +167,21 @@ ul {
   border-top-right-radius: 25px;
 }
 
+.about-me, .treehouse {
+  border-radius: 20px;
+}
+
+.opening {
+  border-radius: 10px;
+}
+
 /* Animations */
 
-.icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic, .card-img-top, .btn-1 { 
+.contact-text, .treehouse, .exp, .squamish, .about-me, .pic, .pic-1, .pic-2, .prof-avatar, .about-me-1, .skill-1, .hello, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
 }
 
-.icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic:hover, .card-img-top:hover, .btn-1:hover { 
+.contact-text:hover, .treehouse:hover, .exp:hover, .squamish:hover, .about-me:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .skill-1:hover, .about-me-1:hover, .hello:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
   transform: scale(1.1); 
 }
 
@@ -165,28 +193,16 @@ ul {
   transform: scale(1.4) rotate(25deg);
 }
 
-.cloud {
-  animation: cloud 10s linear both infinite alternate;
-}
-
-.paint {
-  animation: paint 1.1s linear both infinite alternate;
-}
-
-.lightbulb {
-  animation: light 3s infinite linear;
-}
-
-.sun {
-  animation: rotation 20s infinite linear;
-}
-  
 .wave {
   animation-name: wave-animation; 
   animation-duration: 2.5s;       
   animation-iteration-count: infinite;  
   transform-origin: 20% 20%;       
   display: inline-block;
+}
+
+.web-dev3:hover, .home:hover {
+  animation: rotatey 1s linear;
 }
 
 @keyframes wave-animation {
@@ -214,10 +230,6 @@ ul {
   to {background-color: #FFFF00;}
 }
 
-.web-devel {
-  animation: rotatey 7s linear infinite;
-}
-
 @keyframes rotatey {
  0%{
     transform: rotatey(0deg);
@@ -230,14 +242,6 @@ ul {
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
- 
-.navbar-2 {
-  display: flex;
-}
-  
-.navbar-1 {
-  display: none;
-}
   
 .web-dev3 {
   display: block;
@@ -250,10 +254,6 @@ ul {
   
 .email {
   text-align: center;
-}
-
-.paint {
-  text-align: left;
 }
 
 .footer-text, .email {
@@ -286,21 +286,9 @@ ul {
   
 @media only screen and (min-width: 992px) {
 
-.cloud {
-  width: 30%;
-}
     
 .icon-1 {
   width: 36px;
-}
-       
-.mtn-2 {
-  display: block;
-  float: right;
-}
-    
-.mtn-1 {
-  margin-left: 1em;
 }
 
 .about-me {
@@ -320,22 +308,8 @@ ul {
   font-size: 1.65em;
 }
     
-.cloud {
-  animation: cloud 10s linear both infinite alternate;
-}
-
-.paint {
-  animation: paint 1.1s linear both infinite alternate;
-}
-
-@keyframes cloud {
-  from{transform: translateX(25px);}
-  to{transform: translateX(55px);}
-}
-
-@keyframes paint {
-  from{transform: translateX(25px);}
-  to{transform: translateX(35px);}
+.opening {
+  margin-top: 25px;
 }
 }
     
@@ -360,17 +334,9 @@ ul {
 .about-me {
   font-size: 25px;
 }
-    
-.mtn-1 {
-  margin-left: 4em;
-}
-
-.mtn-2 {
-  margin-right: 0.75em;
-}
 
 .skill-text {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .pers {
@@ -380,16 +346,16 @@ ul {
 .btn-1 {
   margin-left: 8.5em;
 }
+    
+.treehouse {
+  width: 115px;
+}
 }
   
 @media only screen and (min-width: 1400px) {
  
 .hello {
-  font-size: 2.1em;
-}
-    
-.mtn-1 {
-  margin-left: 7.5em;
+  font-size: 2em;
 }
     
 .contact-1 {
@@ -399,12 +365,28 @@ ul {
 .about-me {
   font-size: 27px; 
 }
-
-.skill-text {
-  font-size: 32px;
-}
     
 .btn-1 {
   margin-left: 10em;
+}
+    
+.pic {
+  width: 125px;
+}
+
+.pic-1 {
+  width: 140px;
+}
+
+.pic-2 {
+  width: 150px;
+}
+ 
+.about-pic {
+  margin-top: 100px;
+}
+    
+.about-me-3 {
+  margin-top: 90px;
 }
 }

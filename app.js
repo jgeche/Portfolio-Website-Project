@@ -13,7 +13,7 @@ anime.timeline({loop: false})
     delay: (el, i) => 70*i
   });
 
-//Tooltip Popup Text Windows for Navigation
+//Tooltip Window that Generates Text to Element
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

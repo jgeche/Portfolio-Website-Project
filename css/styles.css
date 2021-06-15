@@ -210,6 +210,10 @@ ul {
   width:100px;
 }
 
+.personal {
+  display:none;
+}
+
 /* Font Styles */
 
 .jamie {
@@ -266,11 +270,11 @@ ul {
 
 /* Animations */
 
-.contact-text, .treehouse, .exp, .squamish, .about-me, .pic, .pic-1, .pic-2, .prof-avatar, .about-me-1, .skill-1, .hello, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
+.personal, .contact-text, .treehouse, .exp, .squamish, .about-me, .pic, .pic-1, .pic-2, .prof-avatar, .about-me-1, .skill-1, .hello, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
 }
 
-.contact-text:hover, .treehouse:hover, .exp:hover, .squamish:hover, .about-me:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .skill-1:hover, .about-me-1:hover, .hello:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
+.personal:hover, .contact-text:hover, .treehouse:hover, .exp:hover, .squamish:hover, .about-me:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .skill-1:hover, .about-me-1:hover, .hello:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
   transform: scale(1.1); 
 }
 
@@ -416,6 +420,12 @@ ul {
   padding-top: 5px;
 }
   
+.personal {
+  height: 400px;
+  border-radius: 20px;
+  display: inline;
+}
+  
 @media only screen and (min-width: 992px) {
     
 .btn-1 {
@@ -491,6 +501,9 @@ ul {
 .res-button {
   margin-bottom: 8px;
 }  
+    
+.avatar-1 {
+  width: 100%;
 }
     
 @media only screen and (min-width: 1200px) {

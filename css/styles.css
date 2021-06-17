@@ -18,13 +18,13 @@ ul {
 /* Color Styles */
 
 .intro, .skills, .contact-div {
-  background-color: #fefefe;
-  background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .navbar {
-  background-color: #09c7fb;
-  background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   font-weight: 800;
   height: 65px;
   margin-top: -12px;
@@ -40,8 +40,8 @@ ul {
 .other-link {
   border-radius: 10px;
   border: 2px solid #000;
-  background-color: #63a4ff;
-  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 .contact-link, .other-link {
@@ -55,43 +55,20 @@ ul {
 }
 
 .social {
-  background-color: #00bfb2;
-  background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  border: 2px solid grey;
 }
 
+
 .logo-div {
-  background-color: #00bfb2;
-  background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .hello {
   font-size: 1.4em;
   background-color: #ededed;
-}
-
-.tooltip-inner {
-  background-color: blue;
-  color: #FFF;
-}
-// tooltip placement top
-.bs-tooltip-top .arrow::before,
-.bs-tooltip-auto[x-placement^='top'] .arrow::before {
-  border-top-color: red !important;
-}
-// tooltip placement bottom
-.bs-tooltip-bottom .arrow::before,
-.bs-tooltip-auto[x-placement^='bottom'] .arrow::before {
-  border-bottom-color: red !important;
-}
-// tooltip placement right
-.bs-tooltip-right .arrow::before,
-.bs-tooltip-auto[x-placement^='right'] .arrow::before {
-  border-right-color: red !important;
-}
-// tooltip placement left
-.bs-tooltip-left .arrow::before,
-.bs-tooltip-auto[x-placement^='left'] .arrow::before {
-  border-left-color: red !important;
 }
 
 /* Spacing and Sizing Styles */
@@ -221,10 +198,6 @@ ul {
   font-size: 1.5em;
 }
 
-.footer-text {
-  font-family: 'Dancing Script', cursive;
-}
-
 .nav-link {
   font-family: 'Open Sans', sans-serif;
 }
@@ -270,11 +243,11 @@ ul {
 
 /* Animations */
 
-.personal, .contact-text, .treehouse, .exp, .squamish, .about-me, .pic, .pic-1, .pic-2, .prof-avatar, .about-me-1, .skill-1, .hello, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
+.personal, .treehouse, .squamish, .pic, .pic-1, .pic-2, .prof-avatar, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
 }
 
-.personal:hover, .contact-text:hover, .treehouse:hover, .exp:hover, .squamish:hover, .about-me:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .skill-1:hover, .about-me-1:hover, .hello:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
+.personal:hover, .treehouse:hover, .squamish:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
   transform: scale(1.1); 
 }
 
@@ -294,10 +267,6 @@ ul {
   display: inline-block;
 }
 
-.web-dev3:hover, .home:hover {
-  animation: rotatey 1s linear;
-}
-
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
    10% { transform: rotate(14.0deg) }  
@@ -307,29 +276,6 @@ ul {
    50% { transform: rotate(10.0deg) }
    60% { transform: rotate( 0.0deg) }  
   100% { transform: rotate( 0.0deg) }
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-}
-  to {
-    transform: rotate(359deg);
-}
-}
-
-@keyframes light {
-  from {background-color: #FFF;}
-  to {background-color: #FFFF00;}
-}
-
-@keyframes rotatey {
- 0%{
-    transform: rotatey(0deg);
-   }
-100%{
-    transform: rotatey(360deg);
-   }
 }
 
 /* Media Queries */
@@ -416,10 +362,6 @@ ul {
   margin-top: 100px;
 }
   
-.footer-text {
-  padding-top: 5px;
-}
-  
 .personal {
   height: 400px;
   border-radius: 20px;
@@ -479,10 +421,6 @@ ul {
   
 .sec-button {
   margin-top: 100px;
-}
-  
-.footer-text {
-  padding-top: 5px;
 }
     
 .logo-div {

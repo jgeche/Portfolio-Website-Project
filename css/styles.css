@@ -209,8 +209,12 @@ ul {
   border-radius: 10px;
 }
 
-.prof-avatar, .contact-button, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
+.victoria, .squamish, .prof-avatar, .contact-button, .prof-pic, .sec-img, .artpic1, .btn-1, .icon, .icon-1 {
   box-shadow: 5px 5px 5px #000;
+}
+
+.social, .card {
+  box-shadow: 2px 2px 2px #000;
 }
 
 .exp, .contact-text, .hello, .about-me-1, .skill-1 {
@@ -243,11 +247,11 @@ ul {
 
 /* Animations */
 
-.personal, .treehouse, .squamish, .pic, .pic-1, .pic-2, .prof-avatar, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
+.about-pic-1, .personal, .treehouse, .squamish, .pic, .pic-1, .pic-2, .prof-avatar, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 { 
   transition: all .8s ease-in-out; 
 }
 
-.personal:hover, .treehouse:hover, .squamish:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
+.about-pic-1:hover, .personal:hover, .treehouse:hover, .squamish:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover { 
   transform: scale(1.1); 
 }
 

@@ -24,9 +24,8 @@ ul {
 
 .navbar {
   background-color: #ffffff;
-  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   font-weight: 800;
-  height: 65px;
+  height: 70px;
   margin-top: -12px;
 }
 
@@ -71,6 +70,10 @@ ul {
   background-color: #ededed;
 }
 
+.thanks {
+  font-weight: 100;
+}
+
 /* Spacing and Sizing Styles */
 
 .web-dev3 {
@@ -108,6 +111,7 @@ ul {
 
 .tree {
   text-align: center;
+  padding-top: 8px;
 }
 
 .logo-div {
@@ -133,7 +137,7 @@ ul {
 }
 
 .social {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .col-about, .col-about-1, .col-about-2 {
@@ -154,7 +158,7 @@ ul {
 }
 
 .skills, .projects {
-  padding-top: 3em;
+  padding-top: 4.8em;
 }
 
 .pers {
@@ -209,8 +213,12 @@ ul {
   border-radius: 10px;
 }
 
-.victoria, .squamish, .prof-avatar, .contact-button, .prof-pic, .sec-img, .artpic1, .btn-1, .icon, .icon-1 {
+.victoria, .squamish, .prof-avatar, .contact-button, .prof-pic, .sec-img, .artpic1, .btn-1, .icon {
   box-shadow: 5px 5px 5px #000;
+}
+
+.icon-1 {
+  box-shadow: 3px 3px 3px #000;
 }
 
 .social, .card {
@@ -332,7 +340,7 @@ ul {
 
 .avatar {
   margin-bottom: 3em;
-  margin-top: 5em;
+  margin-top: 6.25em;
 }
 
 .all-about {
@@ -372,6 +380,10 @@ ul {
   display: inline;
 }
   
+.thanks {
+  font-size: 0.8em;
+}
+  
 @media only screen and (min-width: 992px) {
     
 .btn-1 {
@@ -383,8 +395,8 @@ ul {
   font-size: 1.6em;
 }
 
-.avatar {
-  margin-top: 5.1em;
+.avatar { 
+  margin-top: 7.25em;
 }
 
 .all-about {
@@ -448,6 +460,10 @@ ul {
   width: 100%;
 }
     
+.thanks {
+  font-size: 1em;
+}
+    
 @media only screen and (min-width: 1200px) {
  
 .webdev {
@@ -455,11 +471,11 @@ ul {
  }   
 
 .contact-1 {
-   margin-top: 40px;
+   margin-top: 30px;
 }
     
 .skill-text {
-  font-size: 1.5em;
+  font-size: 1.65em;
 }
     
 .skills {
@@ -485,6 +501,10 @@ ul {
 .btn {
   margin-left: 8em;
 }
+      
+.avatar { 
+  margin-top: 7em;
+}
   
 @media only screen and (min-width: 1400px) {
  
@@ -509,11 +529,11 @@ ul {
 }
 
 .avatar {
-  margin-top: 7em;
+  margin-top: 8em;
 }
       
 .social-1 {
-  margin-top: 6em;
+  margin-top: 7em;
 }
       
 .about-me {
@@ -550,5 +570,9 @@ ul {
       
 .pic-b {
   margin-top: -5px;
+}
+
+.email {
+  margin-top: -9px;
 }
 }

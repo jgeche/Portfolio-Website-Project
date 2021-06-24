@@ -7,7 +7,7 @@
 <!--Meta Tags-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--Bootstrap CSS-->
+<!--Bootstrap CSS/JQuery-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!--CSS/Fonts-->
@@ -19,7 +19,7 @@
 </head>
 <!--Document Body-->
 <body>
-<!--Navigation-->  
+<!--Navigation-->
 <nav class="navbar navbar-expand-md navbar navbar-light fixed-top pt-3 pt-md-2">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
 <a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home pt-md-1"alt="JG logo black and white that takes you to the home page" src="images/jg.jpg"></a>
@@ -46,23 +46,23 @@
 </div>
 </div>
 </nav>
-<!--Jumbotron-->     
+<!--Jumbotron-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
 <div class="row">
 <div class="col-md">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1">Hello there!</h1>
-<p class="hello fw-light text-dark px-2 py-1 border border-2 border-danger">My name is Jamie Geche and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, CSS and more! I am ready to put my skills to work! I love coding, creating art and design in general! Please read on for more about me or email me below!</p>
-</div>  
+<p class="hello fw-light text-dark px-2 py-1 border border-1 border-danger">My name is Jamie Geche and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, CSS and more! I am ready to put my skills to work! I love coding and creating art and design in general! Please read on for more about me or email me below!</p>
+</div>
 <!--contact button-->
 <div class="contact-1">
-<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-warning border-1 mx-auto py-2 fs-3" type="button">Contact me!<span class="wave">👋</span></a>
+<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-danger border-1 mx-auto py-2 fs-3" type="button">Contact me!<span class="wave">👋</span></a>
 </div>
 </div>
 <!--avatar profile-->
 <div class="col-md">
 <div class="avatar">
-<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle border border-light border-2" alt="cartoon Avatar of Jamie, who has long reddish brown hair, mustache with brown glasses and a grey jacket and orange t-shirt">
+<img src="images/profpic.jpg" class="prof-avatar img-fluid rounded-circle" alt="cartoon Avatar of Jamie, who has long reddish brown hair, mustache with brown glasses and a grey jacket and orange t-shirt">
 </div>
 <!--Social media icons-->
 <div class="social rounded-pill social-1">
@@ -87,36 +87,35 @@
 </div>
 </div>
 </div>
-<!--About me--> 
-<div class="container-fluid about px-sm-1 px-md-4 px-lg-5" id="about">
-<div class="row pt-5 pb-5">
-<div class="col-lg col-about" style="background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);">
+<!--About me-->
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5" id="about">
+<div class="row">
+<div class="col-12 col-lg-4">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="ml2 bg-light text-dark display-4 px-2 py-1 all-about">All about me!</h1>
+<h1 class="ml2 bg-light text-dark display-4 px-2 py-1">All about me!</h1>
 </div>
-<div class="pic2 mx-auto">
-<img src="images/profpic2.jpg" class="prof-pic img-fluid rounded-circle" alt="Profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
-</div>
-<div class="text-dark px-2 about-me border border-2 border-danger exp" style="background-color: #ededed;">
-<p class="fw-light fs-4 px-2 py-2">I am fully trained as a web developer and designer through Literacy Alberni Society and Treehouse and I have amassed hands on experience within the field of web development and design.</p>
-</div>
-</div>
-<div class="col-lg col-about-1">
-<div class="about-pic">
-<img src="images/squamish.jpg" class="img-fluid rounded-3 squamish" alt="photo of the Squamish Chief and beautiful lush green forest in Squamish, BC">
-</div>
-<div class="text-dark about-me" style="background-color: #ededed;">
-<p class="fw-light fs-5 px-2 py-2">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time. And I now have transitioned to be trained as a web developer and designer!</p>
+<div class="card text-dark border border-1 border-danger" style="background-color:#d3d3d3">
+<img class="card-img-top border border-light border-1" src="images/profpic2.jpg" alt="Profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
+<div class="card-body body-1">
+<p class="card-text fs-4">I am fully trained as a web developer through Literacy Alberni Society and I have amassed hands on experience within the field of web development and design.</p>
 </div>
 </div>
-<div class="col-lg col-about-2" style="background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);">
-<div class="about-me about-pic about-pic-1">
-<img src="images/victoria.jpg" class="img-fluid rounded-1 victoria" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front">
 </div>
-<div class="text-dark about-me-3 about-me" style="background-color: #ededed;">
-<p class="fw-light fs-4 px-2 py-2">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art and design. I also enjoy sports and fitness, reading of all kinds and playing music instruments! </p>
+<div class="col-12 col-lg-4 col-squam">
+<div class="card text-dark" style="background-color:#d3d3d3">
+<img class="card-img-top border border-light border-1" src="images/squamish.jpg" alt="Photo of the Squamish Chief and beautiful lush green forest in Squamish, BC">
+<div class="card-body body-1">
+<p class="card-text fs-5">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time.</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-4 col-squam">
+<div class="card text-dark" style="background-color:#d3d3d3">
+<img class="card-img-top border border-light border-1" src="images/victoria.jpg" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front">
+<div class="card-body body-1">
+<p class="card-text fs-5">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art and design. I also enjoy sports and fitness, reading of all kinds and playing music instruments! Feel free to browse my art page by clicking the Behance icon!<img src="images/behance.png" href="https://www.behance.net/theSketch" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button">
+<p>
+</div>
 </div>
 </div>
 </div>
@@ -124,35 +123,35 @@ background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);">
 <!--Skills-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="skills">
 <div class="row">
-<div class="col-12 col-lg-6">
+<div class="col-12 col-lg-7">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 skills-heading">My Skills!</h1>
-<ul class="text-dark border border-2 border-danger exp" style="background-color: #ededed;">
+<ul class="text-dark border border-1 border-danger exp" style="background-color: #ededed;">
 <li class="fw-light skill-text py-2 px-0">☑️Very hardworking individual with a background in sales, service and tourism and service industry.</li>
 <li class="fw-light skill-text py-2 px-0">☑️Extremely organized, good with deadlines and managing my time.</li>
-<li class="fw-light skill-text py-2 px-0">☑️Artistic and designer flair that can translate to all kinds of websites.</li>  
+<li class="fw-light skill-text py-2 px-0">☑️Artistic and designer flair that can translate to all kinds of websites.</li>
 <li class="fw-light skill-text py-2 px-0">☑️Positive and outgoing demeanor who's always looking to go the extra mile for employers and clients.
 <li class="fw-light skill-text py-2 px-0">☑️Very tech orientated from an early age, true passion for the tech industry and willingness to learn any program or concept needed to excel in the industry.</li>
 </ul>
 </div>
 </div>
-<div class="col-12 col-lg-6">
+<div class="col-12 col-lg-5">
 <div class="tree">
 <a data-toggle="tooltip" data-placement="bottom" title="Treehouse Front-End Web Development Program"><img class="treehouse" src="images/treehouse.png" alt="green Treehouse company logo"></a>
 </div>
 <div class="opening fs-4" style="background-color:#ededed">
-<p class="px-2 py-2">My expertise on the following programs and concepts are listed below. Please click on the images to get a brief summary. A brief summary of my completed program of Front End Web Development through Treehouse is listed above.</p> 
+<p class="px-2 py-2">My expertise on the following programs and concepts are listed below. Please click on the images to get a brief summary.</p>
 </div>
 <div class="logo-div social rounded-pill">
 <a data-toggle="tooltip" data-placement="top" title="HTML"><img class="img-fluid rounded-circle pic pic-h mt-xl-3" src="images/html.jpg" alt="red html logo"></a>
 <a data-toggle="tooltip" data-placement="top" title="CSS/SCSS"><img class="img-fluid rounded-circle pic-1 mt-xl-2" src="images/css.png" alt="blue css logo"></a>
-<a data-toggle="tooltip" data-placement="top" title="Javascript"><img class="img-fluid rounded-circle pic pic-js mt-xl-3" src="images/js.jpg" alt="yellow javascript logo"></a>  
+<a data-toggle="tooltip" data-placement="top" title="Javascript"><img class="img-fluid rounded-circle pic pic-js mt-xl-3" src="images/js.jpg" alt="yellow javascript logo"></a>
 <a data-toggle="tooltip" data-placement="top" title="Bootstrap"><img class="img-fluid pic-2 pic-b" src="images/bootstrap.jpg" alt="purple bootstrap logo"></a>
 <a data-toggle="tooltip" data-placement="top" title="Git"><img class="img-fluid pic-1 mt-lg-1" src="images/git.png" alt="red git logo"></a>
 </div>
 <div class="logo-div social rounded-pill pt-md-3 pb-md-2">
-<a data-toggle="tooltip" data-placement="bottom" title="Responsive Design"><img class="img-fluid rounded-circle pic pic-4" src="images/responsive_logo.png" alt="red logo displaying responsive design which has smartphone, tablet and desktop views"></a>    
-<a data-toggle="tooltip" data-placement="bottom" title="Chrome and Firefox DevTools"><img class="img-fluid rounded-circle pic pic-4" src="images/dev.png" alt="red and white chrome devtools logo"></a> 
+<a data-toggle="tooltip" data-placement="bottom" title="Responsive Design"><img class="img-fluid rounded-circle pic pic-4" src="images/responsive_logo.png" alt="red logo displaying responsive design which has smartphone, tablet and desktop views"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Chrome and Firefox DevTools"><img class="img-fluid rounded-circle pic pic-4" src="images/dev.png" alt="red and white chrome devtools logo"></a>
 <a data-toggle="tooltip" data-placement="bottom" title="Wordpress"><img class="img-fluid rounded-circle pic pic-4" src="images/wordpress.png" alt="blue and white wordpress logo"></a>
 <a data-toggle="tooltip" data-placement="bottom" title="APIs"><img class="img-fluid rounded-circle pic pic-4" src="images/api_logo.jpg" alt="black and api logo"></a>
 <a data-toggle="tooltip" data-placement="bottom" title="Adobe Illustrator and Photoshop"><img class="img-fluid rounded-circle pic pic-4" src="images/creative_cloud.png" alt="black, white and red creative cloud logo"></a>
@@ -160,20 +159,19 @@ background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);">
 </div>
 </div>
 </div>
-<!--Projects-->  
+<!--Projects-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 projects" id="projects">
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
-<h1 class="ml2 text-dark display-4 px-2 py-1" style="background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);">My Projects!</h1>
-<!--Personal Page-->  
-<div class="card text-dark border border-dark border-4 pers pb-1" style="background-color:#d3d3d3">
-<img src="images/personal.jpg" class="card-img-top border border-light border-2" alt="picture of my first personal webpage project">
+<h1 class="ml2 text-dark display-4 px-2 py-1" style="background-color: #efeff5;">My Projects!</h1>
+<!--Personal Page-->
+<div class="card text-dark pers pb-1" style="background-color:#d3d3d3">
+<img src="images/personal.jpg" class="card-img-top border border-light border-1" alt="picture of my first personal webpage project">
 <div class="card-body">
 <h5 class="card-title">Personal Page</h5>
-<p class="card-text pers-text">Simple webpage about myself through HTML and CSS which includes linking pages together. 
+<p class="card-text pers-text">Simple webpage about myself through HTML and CSS which includes linking pages together.
 </p>
-<a href="docs/Personal.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">
+<a href="docs/Personal.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">
 Go to project!
 </a>
 </div>
@@ -183,13 +181,13 @@ Go to project!
 <div class="web-dev3">
 <img src="images/web-dev3.png" alt="blue computer and pencil with web development work on computer" class="web-devel">
 </div>
-<!--Responsive Layout-->  
-<div class="card text-dark border border-dark border-4 mt-md-2 mt-xl-3" style="background-color:#d3d3d3">
+<!--Responsive Layout-->
+<div class="card text-dark mt-md-2 mt-xl-3" style="background-color:#d3d3d3">
 <img src="images/responsive.jpg" class="card-img-top border border-light border-1" alt="picture of my responsive layout project">
 <div class="card-body">
 <h5 class="card-title">Responsive Layout</h5>
 <p class="card-text">Fully functional webpage made with HTML and CSS that can be viewed in mobile, tablet and desktop views.</p>
-<a href="docs/Responsive.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1 res-button" style="background-color: #FD5F00;">Go to project! 
+<a href="docs/Responsive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1 res-button" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
@@ -197,92 +195,92 @@ Go to project!
 </div>
 <div class="row align-items-start">
 <div class="col-12 col-md-6">
-<!--Registration Form-->  
-<div class="card text-dark border border-dark border-4 reg" style="background-color: #d3d3d3;">
-<img src="images/regform.jpg" class="card-img-top border border-light border-2" alt="picture of my registration form project">
+<!--Registration Form-->
+<div class="card text-dark reg" style="background-color: #d3d3d3;">
+<img src="images/regform.jpg" class="card-img-top border border-light border-1" alt="picture of my registration form project">
 <div class="card-body">
 <h5 class="card-title">Registration Form</h5>
 <p class="card-text">Fully functional online registration form made for the public with functional buttons, drop-down menus, checkboxes and playholder detailing.</p>
-<a href="docs/Regform.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!
+<a href="docs/Regform.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6">
-<!--Web Style Guide--> 
-<div class="card text-dark border border-dark border-4" style="background-color: #d3d3d3;">
-<img src="images/webguide.jpg" class="card-img-top border border-light border-2" alt="picture of my web guide project">
+<!--Web Style Guide-->
+<div class="card text-dark" style="background-color: #d3d3d3;">
+<img src="images/webguide.jpg" class="card-img-top border border-light border-1" alt="picture of my web guide project">
 <div class="card-body">
 <h5 class="card-title">Web Style Guide</h5>
 <p class="card-text">A web style guide using SCSS to compile, organize and style into partials as well as some responsive touches to the buttons of the webpage.</p>
-<a href="docs/Webguide.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project! 
+<a href="docs/Webguide.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
 </div>
 <div class="row align-items-start">
-<div class="col-12 col-md-6">  
-<!--Interactive Photo Gallery-->  
-<div class="card text-dark border border-dark border-4" style="background-color:#d3d3d3">
-<img src="images/interactive.jpg" class="card-img-top border border-light border-2" alt="picture of my interactive photo gallery project">
+<div class="col-12 col-md-6">
+<!--Interactive Photo Gallery-->
+<div class="card text-dark" style="background-color:#d3d3d3">
+<img src="images/interactive.jpg" class="card-img-top border border-light border-1" alt="picture of my interactive photo gallery project">
 <div class="card-body">
 <h5 class="card-title">Interactive Photo Gallery</h5>
 <p class="card-text">An interactive photo gallery that has hover functionality and uses Javascript to utilize a searchbar function.</p>
-<a href="docs/Interactive.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project! 
+<a href="docs/Interactive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6">
-<!--Game Show App-->  
-<div class="card text-dark border border-dark border-4" style="background-color:#d3d3d3">
-<img src="images/gameshow.jpg" class="card-img-top border border-light border-2" alt="picture of my game show project">
+<!--Game Show App-->
+<div class="card text-dark" style="background-color:#d3d3d3">
+<img src="images/gameshow.jpg" class="card-img-top border border-light border-1" alt="picture of my game show project">
 <div class="card-body">
 <h5 class="card-title">Game Show App</h5>
 <p class="card-text">Guessing game app with Javascript where the user needs to figure out a phrase using letters of the keyboard.</p>
-<a href="docs/Gameshow.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!  
+<a href="docs/Gameshow.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
 </div>
 <div class="row align-items-start">
-<div class="col-12 col-md-6"> 
-<!--Web App Dashboard-->  
-<div class="card text-dark border border-dark border-4" style="background-color: #d3d3d3;">
-<img src="images/webapp.jpg" class="card-img-top border border-light border-2" alt="photo of my web app dashboard project">
+<div class="col-12 col-md-6">
+<!--Web App Dashboard-->
+<div class="card text-dark" style="background-color: #d3d3d3;">
+<img src="images/webapp.jpg" class="card-img-top border border-light border-1" alt="photo of my web app dashboard project">
 <div class="card-body">
 <h5 class="card-title">Web App Dashboard</h5>
-<p class="card-text">An interactive dashboard using SVG graphics and imported graphs, and tables, Javascript and app functionality which is also responsive to all screen sizes. </p>
-<a href="docs/Webapp.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!   
+<p class="card-text">An interactive dashboard using SVG graphics and imported graphs, tables, Javascript and app functionality which is also responsive to all screen sizes. </p>
+<a href="docs/Webapp.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
 </div>
-<div class="col-12 col-md-6"> 
-<!--API Project-->  
-<div class="card text-dark border border-dark border-4" style="background-color: #d3d3d3;">
-<img src="images/api.jpg" class="card-img-top border border-light border-2" alt="picture of my API project">
+<div class="col-12 col-md-6">
+<!--API Project-->
+<div class="card text-dark" style="background-color: #d3d3d3;">
+<img src="images/api.jpg" class="card-img-top border border-light border-1" alt="picture of my API project">
 <div class="card-body">
 <h5 class="card-title">API Project</h5>
 <p class="card-text pb-md-4 pb-xl-0">A third-party API employee directory with modal windows and Javascript which changes the employee names with every click of the mouse.</p>
-<a href="docs/Api.html" class="btn-1 btn rounded-pill text-dark border border-warning border-1" style="background-color: #FD5F00;">Go to project!   
+<a href="docs/Api.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Go to project!
 </a>
 </div>
 </div>
-</div>    
 </div>
 </div>
-<!--Contact--> 
+</div>
+<!--Contact-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-md-5 contact-div" id="contact">
 <div class="row pt-lg-2 pt-xl-5 pb-xl-5">
 <div class="col-md pt-xl-4">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="ml2 bg-light text-dark display-4 px-2 py-1 mb-md-5 mb-3">I am always available for contact!</h1>
-<div class="px-2 py-1 text-dark mb-3 mt-lg-2 fs-3 contact-text border border-2 border-danger" style="background-color: #ededed;">
+<div class="px-2 py-1 text-dark mb-3 mt-lg-2 fs-3 contact-text border border-1 border-danger" style="background-color: #ededed;">
 <p class="text">I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
-<p class="text">Email me to the right or feel free to take a look at my resume! 
+<p class="text">Email me to the right or feel free to take a look at my resume!
 <p class="text">Thanks and have a great day!</p>
 </div>
 </div>
@@ -297,36 +295,36 @@ Go to project!
 </div>
 </div>
 </div>
-<!--Footer--> 
-<footer> 
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-3 pt-md-3 border border-top border-2 border-white" style="background-color: #ffffff;">
+<!--Footer-->
+<footer>
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-3 pt-md-3" style="background-color: #E8E8E8;">
 <div class="row">
-<div class="col thanks pt-2">
+<div class="col thanks pt-1">
 Designed and Built By Jamie Geche
 </div>
 <div class="col email">
 <a onclick="window.open('mailto:jamiergeche@gmail.com')" data-toggle="tooltip" data-placement="top" title="jamiergeche@gmail.com">
-<img src="images/mail.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="black and white email icon button">
+<img src="images/mail.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white email icon button">
 </a>
 </div>
-<div class="col links pl-5 d-flex justify-content-around">
+<div class="col pl-5 d-flex justify-content-around">
 <a href="https://www.behance.net/theSketch" data-toggle="tooltip" data-placement="top" title="Behance">
-<img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular behance icon button">
+<img src="images/behance.png" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button">
 </a>
 <a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook">
-<img src="images/facebook.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular facebook icon button">
+<img src="images/facebook.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular facebook icon button">
 </a>
 <a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github">
-<img src="images/github.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="black and white circular github icon button">
+<img src="images/github.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white circular github icon button">
 </a>
 <a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram">
-<img src="images/insta.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="purple and yellow circular instagram icon button">
+<img src="images/insta.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="purple and yellow circular instagram icon button">
 </a>
 <a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter">
-<img src="images/twitter.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular twitter icon button">
+<img src="images/twitter.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular twitter icon button">
 </a>
 <a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-<img src="images/linked-in.jpg" class="icon-1 img-fluid rounded-circle border border-light border-2" alt="blue circular linked-in icon button">
+<img src="images/linked-in.jpg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular linked-in icon button">
 </a>
 </div>
 </div>
@@ -335,7 +333,7 @@ Designed and Built By Jamie Geche
 <!--optional Javascript-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-<script src="js/app.js"></script> 
+<script src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-</body> 
-</html> 
+</body>
+</html>

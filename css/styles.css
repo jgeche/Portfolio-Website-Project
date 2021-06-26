@@ -105,7 +105,7 @@ margin-top: 8px;
 }
 
 .intro {
-  padding-top: 4em;
+  padding-top: 0.5em;
 }
 
 .about-heading {
@@ -113,11 +113,12 @@ margin-top: 8px;
 }
 
 .contact-1 {
-  padding-bottom: 4em;
+  padding-bottom: 1em;
 }
 
 .avatar {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
+  margin-top: 4em;
 }
 
 .social {
@@ -201,35 +202,17 @@ margin-top: 8px;
   border-top-right-radius: 25px;
 }
 
-.treehouse {
-  border-radius: 20px;
-}
-
 .opening {
   border-radius: 10px;
 }
 
 /* Animations */
 
-#nav {
-	position: fixed;
-	height: 52px;
-	background: #fff;
-	top: 0;
-	width: 100%;
-	z-index: 100;
-	transition: all .3s ease;
-	box-shadow: 0 1px 25px rgba(0,0,0, .1);
-}
-#nav.hide {
-	top: -53px;
-}
-
-.personal, .treehouse, .squamish, .prof-avatar, .icon-1, .home, .nav-item, .social, .contact-button, .icon, .prof-pic .card-img-top, .btn-1 {
+.card-img-top, .logo, .about-pic, .beh-btn, .personal, .treehouse, .squamish, .prof-avatar, .icon-1, .home, .nav-item, .social, .contact-button, .icon, .prof-pic .card-img-top, .btn-1 {
   transition: all .8s ease-in-out;
 }
 
-.personal:hover, .treehouse:hover, .squamish:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .social:hover, .prof-pic:hover, .card-img-top:hover, .btn-1:hover {
+.card-img-top:hover, .logo:hover, .about-pic:hover, .beh-btn:hover, .personal:hover, .treehouse:hover, .squamish:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .social:hover, .prof-pic:hover, .card-img-top:hover, .btn-1:hover {
   transform: scale(1.1);
 }
 
@@ -305,8 +288,8 @@ margin-top: 8px;
 }
 
 .intro {
-  padding-top: 6.25em;
   padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 .contact-1 {
@@ -482,74 +465,36 @@ margin-top: 8px;
   width: 40%;
 }
 
-@media only screen and (min-width: 1200px) {
-
-.contact-1 {
-   padding-top: 8px;
+.skills-heading {
+  width: 260px;
 }
 
-.skill-text {
-  font-size: 1.65em;
+@media only screen and (min-width: 1400px) {
+
+.avatar {
+  margin-top: 7.5em;
+  margin-bottom: 6.85em;
 }
 
 .skills {
   padding-bottom: 3em;
 }
 
-.avatar {
-  margin-top: 1em;
-}
-
 .hello-heading {
   width: 322px;
 }
 
-.intro {
-  padding-top: 5em;
-  padding-bottom: 1em;
+.about-heading {
+  font-size: 3.5em;
+  width: 300px;
 }
 
 .icon {
   width: 50px;
 }
 
-.logo {
-  width: 125px;
-}
-
 .hello {
   font-size: 2em;
-}
-
-.home {
-  width: 50px;
-}
-
-.text-1 {
-  font-size: 1.75em;
-}
-
-.text-2 {
-  font-size: 1.39em;
-}
-
-.text-3 {
-  font-size: 1.2em;
-}
-
-@media only screen and (min-width: 1400px) {
-
-.avatar {
-  margin-top: 6.5em;
-}
-
-.social-1 {
-  margin-top: 4.60em;
-}
-
-.about-heading {
-  font-size: 3.5em;
-  width: 300px;
 }
 
 .skill-1 {
@@ -570,10 +515,60 @@ margin-top: 8px;
 }
 
 .col-about {
-  padding-top: 95px;
+  padding-top: 100px;
 }
 
 .contact-1 {
-   margin-top: 25px;
+   margin-top: 5px;
+}
+
+.intro {
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.body-1 {
+  height: 275px;
+}
+
+.logo {
+  width: 115px;
+}
+
+.text-1 {
+  font-size: 1.70em;
+}
+
+.text-2 {
+  font-size: 1.37em;
+}
+
+.text-3 {
+  font-size: 1.18em;
+}
+
+.home {
+  width: 55px;
+}
+
+.skill-text {
+  font-size: 1.85em;
+}
+
+.logo-div {
+  width: 95%;
+  margin-bottom: 5.5em;
+}
+
+.skills-row {
+  margin-top: 8.3em;
+}
+
+.skill-info {
+  font-size: 1.5em;
+}
+
+.project-heading {
+  width: 345px;
 }
 }

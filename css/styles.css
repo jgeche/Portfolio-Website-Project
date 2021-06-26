@@ -54,25 +54,31 @@ ul {
   border: 1px solid #C0C0C0;
 }
 
-
-.logo-div {
-  background-color: #DCDCDC;
-  border: 1px solid #C0C0C0;
-}
-
 .hello {
-  font-size: 1.4em;
   background-color: #ededed;
 }
+
+/* Spacing and Sizing Styles */
 
 .thanks {
   font-weight: 100;
 }
 
-/* Spacing and Sizing Styles */
+.home {
+  width: 40px;
+}
 
-.web-dev3 {
+.hello {
+font-size: 1.32em;
+margin-top: 8px;
+}
+
+.web {
   display: none;
+}
+
+.icon, .logo {
+  width: 40px;
 }
 
 .icon-1 {
@@ -92,23 +98,18 @@ ul {
   display: none;
 }
 
-.tree {
-  text-align: center;
-  padding-top: 8px;
-}
-
 .logo-div {
   display: flex;
   justify-content: space-evenly;
-}
-
-.jamie-div {
-  padding-top: 12px;
-  margin-right: 65px;
+  width: 90%;
 }
 
 .intro {
   padding-top: 4em;
+}
+
+.about-heading {
+  font-size: 2em;
 }
 
 .contact-1 {
@@ -123,30 +124,15 @@ ul {
   margin-bottom: 2em;
 }
 
-.skills, .projects {
-  padding-top: 4.8em;
-}
-
-.pers {
-  margin-top: 2em;
-}
-
 .card {
-  margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.exp {
-  margin-top: 3em;
+.skill-1 {
+  margin-top: 0em;
   padding-left: 0.75em;
   padding-right: 0.5em;
-}
-
-.treehouse {
-  width: 100px;
-}
-
-.tree {
-  margin-bottom: 1.2em;
 }
 
 .opening {
@@ -157,12 +143,40 @@ ul {
   display: none;
 }
 
-/* Font Styles */
-
-.jamie {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.5em;
+.text-2, .text-3 {
+  font-size: 1em;
 }
+
+.text-1 {
+  font-size: 0.9em;
+}
+
+.beh-btn {
+  width:200px;
+}
+
+.card {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.col-about {
+  padding-top: 0px;
+}
+
+.skill-1 {
+  margin-bottom: 0.5em;
+}
+
+.heading {
+  margin-top: 8px;
+}
+
+.logo-div {
+  margin-bottom: 1em;
+}
+
+/* Font Styles */
 
 .nav-link {
   font-family: 'Open Sans', sans-serif;
@@ -170,21 +184,15 @@ ul {
 
 /* Border Styles */
 
-
-.ml2 {
+.heading {
   border-radius: 10px;
 }
 
-.exp, .contact-text, .hello, .about-me-1, .skill-1 {
+.contact-text, .hello, .skill-1 {
   border-radius: 20px;
 }
 
 .card {
-  border-radius: 25px;
-}
-
-.sec-img, .artpic1 {
-  border: 1px solid #FFF;
   border-radius: 25px;
 }
 
@@ -193,7 +201,7 @@ ul {
   border-top-right-radius: 25px;
 }
 
-.about-me, .treehouse {
+.treehouse {
   border-radius: 20px;
 }
 
@@ -203,11 +211,25 @@ ul {
 
 /* Animations */
 
-.about-pic-1, .personal, .treehouse, .squamish, .pic, .pic-1, .pic-2, .prof-avatar, .icon-1, .home, .nav-item, .button, .social, .contact-button, .icon, .prof-pic, .sec-img, .artpic1, .card-img-top, .btn-1 {
+#nav {
+	position: fixed;
+	height: 52px;
+	background: #fff;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	transition: all .3s ease;
+	box-shadow: 0 1px 25px rgba(0,0,0, .1);
+}
+#nav.hide {
+	top: -53px;
+}
+
+.personal, .treehouse, .squamish, .prof-avatar, .icon-1, .home, .nav-item, .social, .contact-button, .icon, .prof-pic .card-img-top, .btn-1 {
   transition: all .8s ease-in-out;
 }
 
-.about-pic-1:hover, .personal:hover, .treehouse:hover, .squamish:hover, .pic:hover, .pic-1:hover, .pic-2:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .button:hover, .social:hover, .prof-pic:hover, .sec-img:hover, .artpic1:hover, .card-img-top:hover, .btn-1:hover {
+.personal:hover, .treehouse:hover, .squamish:hover, .prof-avatar:hover, .icon-1:hover, .home:hover, .nav-item:hover, .social:hover, .prof-pic:hover, .card-img-top:hover, .btn-1:hover {
   transform: scale(1.1);
 }
 
@@ -242,11 +264,6 @@ ul {
 
 @media only screen and (min-width: 768px) {
 
-.web-dev3 {
-  display: block;
-  text-align: center;
-}
-
 .thanks, .email {
   display: block;
 }
@@ -255,30 +272,41 @@ ul {
   text-align: center;
 }
 
+.home {
+  width: 45px;
+}
+
+.col-about {
+  padding-top: 148px;
+}
+
+.about-heading {
+  font-size: 2.7em;
+}
+
 .icon-1 {
   width: 36px;
+}
+
+.icon {
+  width: 45px;
+}
+
+.icon-2 {
+  width: 30px;
+}
+
+.beh-btn {
+  height: 42px;
 }
 
 .navbar {
   margin-top: 0;
 }
 
-.jamie-div {
-  padding-top: 20px;
-  margin-right: 0;
-}
-
 .intro {
   padding-top: 6.25em;
   padding-bottom: 3em;
-}
-
-.jamie {
-  font-size: 2em;
-}
-
-.hello {
-  margin-top: 2em;
 }
 
 .contact-1 {
@@ -291,35 +319,47 @@ ul {
   margin-top: 6.25em;
 }
 
-.all-about {
-  width: 300px;
+.skills-heading {
+  width: 230px;
+  margin-bottom: 1em;
 }
 
-.skills-heading {
-  width: 250px;
+.skills-row {
+  margin-top: 6.6em;
+  margin-bottom: 3em;
 }
 
 .skill-text {
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
-.exp {
+.skill-1 {
   margin-bottom: 2em;
 }
 
-.pic-h, .pic-js {
-  width: 110px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.skills, .projects {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.web-dev3 {
-  padding-bottom: 12px;
-  margin-top: -0.60em;
+.logo-div {
+  margin-bottom: 2.5em;
 }
 
 .sec-button {
   margin-top: 100px;
+}
+
+.project-heading {
+  width: 275px;
+}
+
+.projects-row {
+  margin-top: 2em;
+}
+
+.logo {
+  width: 43px;
 }
 
 .personal {
@@ -328,8 +368,32 @@ ul {
   display: inline;
 }
 
+.hello-heading {
+  width: 260px;
+}
+
 .thanks {
   font-size: 0.8em;
+}
+
+.text-1 {
+  font-size: 1.2em;
+}
+
+.text-2 {
+  font-size: 0.97em;
+}
+
+.text-3 {
+  font-size: 0.85em;
+}
+
+.body-1 {
+  height: 285px;
+}
+
+.about-container {
+  margin-bottom: 2.5em;
 }
 
 @media only screen and (min-width: 992px) {
@@ -344,86 +408,84 @@ ul {
 }
 
 .avatar {
-  margin-top: 7.25em;
+  margin-top: 7.95em;
+  margin-bottom: 3.95em;
 }
 
-.all-about {
-  width: 100%;
-  font-size: 2.65em;
+.hello-heading {
+  width: 300px;
 }
 
-.about-pic {
-  margin-top: 6em;
+.about-heading {
+  font-size: 3.28em;
+  width: 275px;
 }
 
-.about-me-3 {
-  margin-top: 7em;
+.col-about {
+  padding-top: 160px;
 }
 
-.skills-heading {
-  width: 100%;
+.skills-row {
+  margin-top: 7.6em;
 }
 
 .skill-text {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
-.exp {
+.skill-1 {
   margin-bottom: 2em;
 }
 
-.pic-h, .pic-js {
-  width: 110px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.skill-info {
+  font-size: 1.25em;
 }
 
-.web-dev3 {
-  padding-bottom: 12px;
-  margin-top: -0.60em;
+.text-1 {
+  font-size: 1.40em;
+}
+
+.text-2 {
+  font-size: 1.13em;
+}
+
+.text-3 {
+  font-size: 1em;
+}
+
+.logo-div {
+  width: 93%;
+  margin-bottom: 3.8em;
+}
+
+.logo {
+  width: 60px;
+}
+
+.body-1 {
+  height: 293px;
 }
 
 .sec-button {
   margin-top: 100px;
 }
 
-.logo-div {
-  padding-left: 9px;
-  padding-right: 9px;
-}
-
-.pers-text {
-  padding-bottom: 15px;
-}
-
-.btn {
-  margin-left: 6em;
-}
-
-.res-button {
-  margin-bottom: 8px;
-}
-
-.avatar-1 {
-  width: 100%;
-}
-
 .thanks {
   font-size: 1em;
 }
 
-.body-1 {
-  height: 240px;
+.project-heading {
+  width: 315px;
+}
+
+.btn-1 {
+  width: 40%;
 }
 
 @media only screen and (min-width: 1200px) {
 
-.webdev {
-   text-align: center;
- }
-
 .contact-1 {
-   margin-top: 30px;
+   padding-top: 8px;
 }
 
 .skill-text {
@@ -434,82 +496,68 @@ ul {
   padding-bottom: 3em;
 }
 
-.pic-h, .pic-js {
-  padding-top: 0px;
-}
-
-.pic-b {
-  padding-top: 8px;
-}
-
-.treehouse {
-  width: 115px;
-}
-
-.pers-text {
-  padding-bottom: 0px;
-}
-
-.btn {
-  margin-left: 8em;
-}
-
 .avatar {
-  margin-top: 7em;
+  margin-top: 1em;
 }
 
-@media only screen and (min-width: 1400px) {
+.hello-heading {
+  width: 322px;
+}
+
+.intro {
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.icon {
+  width: 50px;
+}
+
+.logo {
+  width: 125px;
+}
 
 .hello {
   font-size: 2em;
 }
 
-.about-me {
-  font-size: 27px;
+.home {
+  width: 50px;
 }
 
-.pic {
-  width: 125px;
+.text-1 {
+  font-size: 1.75em;
 }
 
-.pic-1 {
-  width: 140px;
+.text-2 {
+  font-size: 1.39em;
 }
 
-.pic-2 {
-  width: 150px;
+.text-3 {
+  font-size: 1.2em;
 }
+
+@media only screen and (min-width: 1400px) {
 
 .avatar {
-  margin-top: 8em;
+  margin-top: 6.5em;
 }
 
 .social-1 {
-  margin-top: 7em;
+  margin-top: 4.60em;
 }
 
-.about-me {
-  font-size: 0;
+.about-heading {
+  font-size: 3.5em;
+  width: 300px;
 }
 
-.exp {
+.skill-1 {
   margin-top: 3em;
 }
 
-.col-about-1 {
-  margin-top: -1.2em;
-}
-
-.col-about-2 {
-  padding-top: 8.5em;
-}
-
-.about-me-3 {
-  margin-top: 90px;
-}
-
-.btn {
-  margin-left: 9.5em;
+.skills-heading {
+  width: 285px;
 }
 
 .thanks {
@@ -518,18 +566,11 @@ ul {
 
 .email {
   padding-top: 9px;
-}
-
-.pic-b {
-  margin-top: -5px;
-}
-
-.email {
   margin-top: -9px;
 }
 
-.col-squam {
-  padding-top: 91px;
+.col-about {
+  padding-top: 95px;
 }
 
 .contact-1 {

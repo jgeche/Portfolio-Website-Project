@@ -105,7 +105,7 @@ margin-top: 8px;
 }
 
 .intro {
-  padding-top: 0.5em;
+  padding-top: 4.5em;
 }
 
 .about-heading {
@@ -149,7 +149,7 @@ margin-top: 8px;
 }
 
 .text-1 {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .beh-btn {
@@ -204,6 +204,27 @@ margin-top: 8px;
 
 .opening {
   border-radius: 10px;
+}
+
+nav {
+  transition: background 0.4s ease-in-out;
+  background: #010101;
+}
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
 }
 
 /* Animations */
@@ -288,8 +309,8 @@ margin-top: 8px;
 }
 
 .intro {
-  padding-bottom: 3em;
-  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-top: 7em;
 }
 
 .contact-1 {
@@ -360,19 +381,19 @@ margin-top: 8px;
 }
 
 .text-1 {
-  font-size: 1.2em;
+  font-size: 1.37em;
 }
 
 .text-2 {
-  font-size: 0.97em;
+  font-size: 1.1em;
 }
 
 .text-3 {
-  font-size: 0.85em;
+  font-size: 1em;
 }
 
 .body-1 {
-  height: 285px;
+  height: 372px;
 }
 
 .about-container {
@@ -523,7 +544,7 @@ margin-top: 8px;
 }
 
 .intro {
-  padding-top: 2em;
+  padding-top: 6.5em;
   padding-bottom: 1.5em;
 }
 

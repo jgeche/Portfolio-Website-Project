@@ -24,7 +24,7 @@ $(document).ready(function () {
 	$(window).scroll(function () {
 		var currentScroll = $(this).scrollTop();
 		if (currentScroll < 100) {
-			showTopNav();
+			showNav();
 		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
 			if (currentScroll > previousScroll) {
 				hideNav();
@@ -43,6 +43,3 @@ $(document).ready(function () {
 		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
 	}
 });
-
-//SmoothScroll
-var scroll = new SmoothScroll('a[href*="#"]');

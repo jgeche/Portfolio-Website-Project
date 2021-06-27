@@ -43,6 +43,3 @@ $(document).ready(function () {
 		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
 	}
 });
-
-//SmoothScroll
-var scroll = new SmoothScroll('a[href*="#"]');

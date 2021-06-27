@@ -206,27 +206,6 @@ margin-top: 8px;
   border-radius: 10px;
 }
 
-nav {
-  transition: background 0.4s ease-in-out;
-  background: #010101;
-}
-.is-hidden {
-  opacity: 0;
-  transition: transform 0.4s, opacity 0.2s;
-}
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.navbar-hide {
-  pointer-events: none;
-  opacity: 0;
-}
-
 /* Animations */
 
 .card-img-top, .logo, .about-pic, .beh-btn, .personal, .treehouse, .squamish, .prof-avatar, .icon-1, .home, .nav-item, .social, .contact-button, .icon, .prof-pic .card-img-top, .btn-1 {
@@ -262,6 +241,59 @@ nav {
    50% { transform: rotate(10.0deg) }
    60% { transform: rotate( 0.0deg) }
   100% { transform: rotate( 0.0deg) }
+}
+
+body {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+nav {
+  transition: background 0.4s ease-in-out;
+  background: #010101;
+}
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
 }
 
 /* Media Queries */
@@ -399,6 +431,7 @@ nav {
 .about-container {
   margin-bottom: 2.5em;
 }
+}
 
 @media only screen and (min-width: 992px) {
 
@@ -488,6 +521,34 @@ nav {
 
 .skills-heading {
   width: 260px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+
+.hello-heading {
+width: 322px;
+}
+
+.intro {
+  padding-top: 8em;
+}
+
+.contact-1 {
+   margin-top: 45px;
+}
+
+.col-about {
+  padding-top: 95px;
+}
+
+.skills-heading {
+  width: 285px;
+}
+
+.project-heading {
+  width: 345px;
+}
 }
 
 @media only screen and (min-width: 1400px) {
@@ -591,5 +652,20 @@ nav {
 
 .project-heading {
   width: 345px;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+
+.hello {
+  font-size: 2.2em;
+}
+
+.prof-avatar {
+  width: 392px;
+}
+
+.contact-1 {
+   margin-top: 22px;
 }
 }

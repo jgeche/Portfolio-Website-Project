@@ -20,7 +20,7 @@
 <!--Document Body-->
 <body>
 <!--Navigation-->
-<nav class="navbar navbar-expand-md navbar navbar-light fixed-top pt-3 pt-md-2">
+<nav class="navbar navbar-expand-md navbar navbar-light fixed-top pt-3 pt-md-2" role="navigation">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
 <a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home"alt="JG logo red, orange and yellow that takes you to the home page" src="images/logo.svg"></a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
 <div class="container justify-content-start">
 <div class="navbar-nav justify-content-end">
 <div class="nav-item mx-2 other-link">
-<a href="#about" class="nav-link" data-mt-duration="300">About Me</a>
+<a href="#about" class="nav-link" data-mt-duration="300" role="button">About Me</a>
 </div>
 <div class="nav-item mx-2 other-link">
-<a class="nav-link" href="#skills" data-mt-duration="300">Skills</a>
+<a class="nav-link" href="#skills" data-mt-duration="300" role="button">Skills</a>
 </div>
 <div class="nav-item mx-2 other-link">
-<a class="nav-link" href="#projects" data-mt-duration="300">Projects</a>
+<a class="nav-link" href="#projects" data-mt-duration="300" role="button">Projects</a>
 </div>
 <div class="nav-item mx-2 contact-link">
-<a class="nav-link" href="#contact" data-mt-duration="300">Contact</a>
+<a class="nav-link" href="#contact" data-mt-duration="300" role="button">Contact</a>
 </div>
 </div>
 </div>
@@ -47,39 +47,39 @@
 </div>
 </nav>
 <!--Main Heading-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro" role="main">
 <div class="row mt-md-2">
 <div class="col-md">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="heading bg-light text-dark display-4 px-2 py-1 hello-heading">Hello there!</h1>
+<h1 class="heading bg-light text-dark display-4 px-2 py-1 hello-heading" role="heading">Hello there!</h1>
 <p class="hello fw-light text-dark px-2 py-1 border border-1 border-danger mt-3 mt-md-5 mt-xl-5">My name is Jamie Geche and I am a web developer and designer that loves all things tech. I am trained in HTML, Javascript, CSS and more! I am ready to put my skills to work! I love coding and creating art and design in general! Please read on for more about me or email me below!</p>
 </div>
 <!--contact button-->
 <div class="contact-1">
-<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-danger border-1 mx-auto py-2 fs-3" type="button">Contact me!<span class="wave">👋</span></a>
+<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text contact-button col-9 btn justify-content-md-start text-dark rounded-pill border border-danger border-1 mx-auto py-2 fs-3" type="button" role="button">Contact me!<span class="wave">👋</span></a>
 </div>
 </div>
 <!--avatar profile-->
 <div class="col-md">
 <div class="avatar">
-<img src="images/profpic.png" class="prof-avatar img-fluid rounded-circle" alt="cartoon Avatar of Jamie, who has long reddish brown hair, mustache with brown glasses and a grey jacket and orange t-shirt">
+<img src="images/profpic.png" class="prof-avatar img-fluid rounded-circle" alt="cartoon avatar of me, who has long reddish brown hair, mustache with brown glasses and a grey jacket and orange t-shirt">
 </div>
 <!--Social media icons-->
 <div class="social rounded-pill social-1">
 <div class="d-flex justify-content-evenly py-2">
-<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook">
+<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook" role="button">
 <img src="images/facebook.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular Facebook icon button">
 </a>
-<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github">
+<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github" role="button">
 <img src="images/github.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="black and white circular Github icon button">
 </a>
-<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram">
-<img src="images/instagram.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="purple and yellow circular Instagram icon button">
+<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram" role="button">
+<img src="images/instagram.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="black and white circular Instagram icon button">
 </a>
-<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter">
+<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter" role="button">
 <img src="images/twitter.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular Twitter icon button">
 </a>
-<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn" role="button">
 <img src="images/linkedin.svg" class="icon img-fluid rounded-circle border border-light border-2" alt="blue circular LinkedIn icon button">
 </a>
 </div>
@@ -88,14 +88,14 @@
 </div>
 </div>
 <!--About me-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 about-container" id="about">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 about-container" id="about" role="complementary" aria-label="about me">
 <div class="row">
 <div class="col-12 col-md-4">
 <div class="jumbotron jumbotron-fluid mt-2 mt-md-5 mb-md-5 mt-xl-3 mb-xl-3">
-<h1 class="heading text-dark px-2 py-1 about-heading" style="background-color: #efeff5;">About me!</h1>
+<h1 class="heading text-dark px-2 py-1 about-heading" style="background-color: #efeff5;" role="heading">About me!</h1>
 </div>
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img class="card-img-top border border-light border-1 about-pic" src="images/profpic2.jpg" alt="Profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
+<img class="card-img-top border border-light border-1 about-pic" src="images/profpic2.jpg" alt="profile picture of myself, long reddish hair with moustache, brownish glasses and a red shirt">
 <div class="card-body body-1">
 <p class="card-text text-1">I am fully trained as a web developer through Literacy Alberni Society and I have amassed hands on experience within the field of web development and design.</p>
 </div>
@@ -103,7 +103,7 @@
 </div>
 <div class="col-12 col-md-4 col-about">
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img class="card-img-top border border-light border-1 about-pic" src="images/squamish.jpg" alt="Photo of the Squamish Chief and beautiful lush green forest in Squamish, BC">
+<img class="card-img-top border border-light border-1 about-pic" src="images/squamish.jpg" alt="photo of the Squamish Chief and beautiful lush green forest in Squamish, BC">
 <div class="card-body body-1">
 <p class="card-text text-2">I am born and raised in beautiful Squamish, BC and I currently reside in Qualicum Beach, BC. I have a background in tourism and recreation where I worked in the industry for 10+ years and I learned alot about computers and tech within that time.</p>
 </div>
@@ -111,11 +111,11 @@
 </div>
 <div class="col-12 col-md-4 col-about mb-2">
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img class="card-img-top border border-light border-1 about-pic hover-zoom" src="images/victoria.jpg" alt="Art piece Jamie created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front">
+<img class="card-img-top border border-light border-1 about-pic hover-zoom" src="images/victoria.jpg" alt="Art piece I created of Victoria Parliament composed of watercolor paint, blue sky and parliament building with green shrubbery, harbour and boats as well as purple flowers in the front.">
 <div class="card-body body-1">
 <p class="card-text text-3">In my spare time, I enjoy creating traditional art and I am also in the process of learning digital art and design. I also enjoy sports and fitness, reading of all kinds and playing music instruments! Feel free to browse my art page by clicking the Behance icon!<p>
 <div class="d-flex justify-content-center">
-<a href="https://www.behance.net/theSketch" class="btn rounded-pill bg-light border border-dark border-1 beh-btn"> <img src="images/behance.svg" class="icon-1 icon-2 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button"></a>
+<a href="https://www.behance.net/theSketch" class="btn rounded-pill bg-light border border-dark border-1 beh-btn" role="button"> <img src="images/behance.svg" class="icon-1 icon-2 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button"></a>
 </div>
 </div>
 </div>
@@ -123,12 +123,12 @@
 </div>
 </div>
 <!--Skills-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="skills">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="skills" role="complementary" aria-label="skills">
 <div class="row">
 <div class="col-12 col-md-7">
 <div class="jumbotron jumbotron-fluid mt-2 mb-2">
-<h1 class="heading bg-light text-dark display-4 px-2 py-1 skills-heading">My Skills!</h1>
-<ul class="text-dark border border-1 border-danger skill-1" style="background-color: #ededed;">
+<h1 class="heading bg-light text-dark display-4 px-2 py-1 skills-heading" role="heading">My Skills!</h1>
+<ul class="text-dark border border-1 border-danger skill-1" style="background-color: #ededed;" role="list">
 <li class="fw-light skill-text py-2 px-0">☑️Very hardworking individual with a background in sales, service and tourism and service industry.</li>
 <li class="fw-light skill-text py-2 px-0">☑️Extremely organized, good with deadlines and managing my time.</li>
 <li class="fw-light skill-text py-2 px-0">☑️Artistic and designer flair that can translate to all kinds of websites.</li>
@@ -145,44 +145,44 @@
 </div>
 <div class="row d-flex justify-content-center pt-xl-3">
 <div class="logo-div social rounded-pill py-2">
-<a data-toggle="tooltip" data-placement="top" title="HTML"><img class="img-fluid rounded-circle logo" src="images/html.svg" alt="red html logo"></a>
-<a data-toggle="tooltip" data-placement="top" title="CSS/SCSS"><img class="img-fluid rounded-circle logo" src="images/css.svg" alt="blue css logo"></a>
-<a data-toggle="tooltip" data-placement="top" title="Javascript"><img class="img-fluid rounded-circle logo" src="images/js.svg" alt="yellow javascript logo"></a>
-<a data-toggle="tooltip" data-placement="top" title="Bootstrap"><img class="img-fluid rounded-circle logo" src="images/bootstrap.svg" alt="purple bootstrap logo"></a>
-<a data-toggle="tooltip" data-placement="top" title="Git"><img class="img-fluid rounded-circle logo" src="images/git.svg" alt="red git logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="HTML"role="button"><img class="img-fluid rounded-circle logo" src="images/html.svg" alt="red html logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="CSS/SCSS" role="button"><img class="img-fluid rounded-circle logo" src="images/css.svg" alt="blue css logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Javascript" role="button"><img class="img-fluid rounded-circle logo" src="images/js.svg" alt="dark green and light green javascript logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Bootstrap" role="button"><img class="img-fluid rounded-circle logo" src="images/bootstrap.svg" alt="purple bootstrap logo"></a>
+<a data-toggle="tooltip" data-placement="top" title="Git" role="button"><img class="img-fluid rounded-circle logo" src="images/git.svg" alt="red git logo"></a>
 </div>
 </div>
 <div class="row d-flex justify-content-center">
 <div class="logo-div social rounded-pill py-2">
-<a data-toggle="tooltip" data-placement="bottom" title="Responsive Design"><img class="img-fluid rounded-circle logo" src="images/responsive.svg" alt="red logo displaying responsive design which has smartphone, tablet and desktop views"></a>
-<a data-toggle="tooltip" data-placement="bottom" title="Chrome and Firefox DevTools"><img class="img-fluid rounded-circle logo" src="images/chrome.svg" alt="red and white chrome devtools logo"></a>
-<a data-toggle="tooltip" data-placement="bottom" title="Wordpress"><img class="img-fluid rounded-circle logo" src="images/wordpress.svg" alt="blue and white wordpress logo"></a>
-<a data-toggle="tooltip" data-placement="bottom" title="APIs"><img class="img-fluid rounded-circle logo" src="images/api.svg" alt="black and api logo"></a>
-<a data-toggle="tooltip" data-placement="bottom" title="Treehouse Front-End Web Development Program"><img class="img-fluid rounded-circle logo" src="images/treehouse.svg" alt="green treehouse logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Responsive Design" role="button"><img class="img-fluid rounded-circle logo" src="images/responsive.svg" alt="orange logo displaying responsive design which has smartphone, tablet and desktop views"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Chrome and Firefox DevTools" role="button"><img class="img-fluid rounded-circle logo" src="images/chrome.svg" alt="blue and white chrome devtools logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Wordpress" role="button"><img class="img-fluid rounded-circle logo" src="images/wordpress.svg" alt="light blue and white wordpress logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="APIs" role="button"><img class="img-fluid rounded-circle logo" src="images/api.svg" alt="black and api logo"></a>
+<a data-toggle="tooltip" data-placement="bottom" title="Treehouse Front-End Web Development Program" role="button"><img class="img-fluid rounded-circle logo" src="images/treehouse.svg" alt="green treehouse logo"></a>
 </div>
 </div>
 </div>
 </div>
 </div>
 <!--Projects-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 projects" id="projects">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 projects" id="projects" role="complementary" aria-label="projects">
 <div class="mt-3 mb-2 project-heading">
-<h1 class="heading text-dark display-4 px-2 py-1" style="background-color: #efeff5;">My Projects!</h1>
+<h1 class="heading text-dark display-4 px-2 py-1" style="background-color: #efeff5;" role="heading">My Projects!</h1>
 </div>
 <div class="row align-items-start projects-row">
 <div class="col-12 col-md-6">
 <!--Personal Page-->
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img src="images/personal.jpg" class="card-img-top border border-light border-1" alt="picture of my first personal webpage project">
+<img src="images/personal.jpg" class="card-img-top border border-light border-1" alt="Picture of my first personal webpage project which has a dark blue and lightblue background and an avatar of myself.">
 <div class="card-body">
 <h5 class="card-title">Personal Page</h5>
 <p class="card-text">Simple webpage about myself through HTML and CSS which includes linking pages together.
 </p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Personal.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">
+<a href="docs/Personal.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">
 Read more!
 </a>
-<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -191,14 +191,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Responsive Layout-->
 <div class="card text-dark mt-md-2" style="background-color:#d3d3d3">
-<img src="images/responsive.jpg" class="card-img-top border border-light border-1" alt="picture of my responsive layout project">
+<img src="images/responsive.jpg" class="card-img-top border border-light border-1" alt="Picture of my responsive layout project which has a red and maroon background and avatar of myself.">
 <div class="card-body">
 <h5 class="card-title">Responsive Layout</h5>
 <p class="card-text">Fully functional webpage made with HTML and CSS that can be viewed in mobile, tablet and desktop views.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Responsive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1 res-button" style="background-color: #FD5F00;">Read more!
+<a href="docs/Responsive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1 res-button" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/Responsive-Layout-Project/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Responsive-Layout-Project/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -209,14 +209,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Registration Form-->
 <div class="card text-dark" style="background-color: #d3d3d3;">
-<img src="images/regform.jpg" class="card-img-top border border-light border-1" alt="picture of my registration form project">
+<img src="images/regform.jpg" class="card-img-top border border-light border-1" alt="Picture of my registration form project which has a beige and yellow heading and background.">
 <div class="card-body">
 <h5 class="card-title">Registration Form</h5>
 <p class="card-text">Fully functional online registration form made for the public with functional buttons, drop-down menus, checkboxes and playholder detailing.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Regform.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Regform.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/online-registration-form/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -225,14 +225,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Web Style Guide-->
 <div class="card text-dark" style="background-color: #d3d3d3;">
-<img src="images/webguide.jpg" class="card-img-top border border-light border-1" alt="picture of my web guide project">
+<img src="images/webguide.jpg" class="card-img-top border border-light border-1" alt="Photo of my web guide project which has a white background and light blue text.">
 <div class="card-body">
 <h5 class="card-title">Web Style Guide</h5>
 <p class="card-text">A web style guide using SCSS to compile, organize and style into partials as well as some responsive touches to the buttons of the webpage.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Webguide.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Webguide.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/Web-style-guide/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Web-style-guide/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -243,14 +243,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Interactive Photo Gallery-->
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img src="images/interactive.jpg" class="card-img-top border border-light border-1" alt="picture of my interactive photo gallery project">
+<img src="images/interactive.jpg" class="card-img-top border border-light border-1" alt="Photo of my interactive photo gallery project which a beige background and searchbar.">
 <div class="card-body">
 <h5 class="card-title">Interactive Photo Gallery</h5>
 <p class="card-text">An interactive photo gallery that has hover functionality and uses Javascript to utilize a searchbar function.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Interactive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Interactive.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/Interactive-Photo-Gallery/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Interactive-Photo-Gallery/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -259,14 +259,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Game Show App-->
 <div class="card text-dark" style="background-color:#d3d3d3">
-<img src="images/gameshow.jpg" class="card-img-top border border-light border-1" alt="picture of my game show project">
+<img src="images/gameshow.jpg" class="card-img-top border border-light border-1" alt="Picture of my game show project which has a solid white background and keyboard on bottom of the page.">
 <div class="card-body">
 <h5 class="card-title">Game Show App</h5>
 <p class="card-text">Guessing game app with Javascript where the user needs to figure out a phrase using letters of the keyboard.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Gameshow.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Gameshow.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/Game-Show-App/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Game-Show-App/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -277,14 +277,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--Web App Dashboard-->
 <div class="card text-dark" style="background-color: #d3d3d3;">
-<img src="images/webapp.jpg" class="card-img-top border border-light border-1" alt="photo of my web app dashboard project">
+<img src="images/webapp.jpg" class="card-img-top border border-light border-1" alt="Photo of my web app dashboard project which white background and purple detailing.">
 <div class="card-body">
 <h5 class="card-title">Web App Dashboard</h5>
 <p class="card-text">An interactive dashboard using SVG graphics and imported graphs, tables, Javascript and app functionality which is responsive to all screen sizes. </p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Webapp.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Webapp.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/Web-app-Dashboard/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/Web-app-Dashboard/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -293,14 +293,14 @@ Read more!
 <div class="col-12 col-md-6">
 <!--API Project-->
 <div class="card text-dark" style="background-color: #d3d3d3;">
-<img src="images/api.jpg" class="card-img-top border border-light border-1" alt="picture of my API project">
+<img src="images/api.jpg" class="card-img-top border border-light border-1" alt="Picture of my API project which has a beige background and list of employees in the center.">
 <div class="card-body">
 <h5 class="card-title">API Project</h5>
 <p class="card-text">A third-party API employee directory with modal windows and Javascript which changes the employee names with every click of the mouse.</p>
 <div class="d-flex justify-content-evenly">
-<a href="docs/Api.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;">Read more!
+<a href="docs/Api.html" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FD5F00;" role="button">Read more!
 </a>
-<a href="https://jgeche.github.io/API-Project/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;">Go to site!
+<a href="https://jgeche.github.io/API-Project/" class="btn-1 btn rounded-pill text-dark border border-danger border-1" style="background-color: #FF8C00;" role="button">Go to site!
 </a>
 </div>
 </div>
@@ -309,11 +309,11 @@ Read more!
 </div>
 </div>
 <!--Contact-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-2 pt-md-5 pb-md-5 contact-div" id="contact">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-2 pt-md-5 pb-md-5 contact-div" id="contact" role="complementary" aria-label="contact">
 <div class="row pt-lg-2 pt-xl-5 mt-xl-2 mb-xl-5 pb-xl-4">
 <div class="col-md pt-xl-1">
 <div class="jumbotron jumbotron-fluid">
-<h1 class="heading bg-light text-dark display-4 px-2 py-1 mb-md-5">I am always available for contact!</h1>
+<h1 class="heading bg-light text-dark display-4 px-2 py-1 mb-md-5" role="heading">I am always available for contact!</h1>
 <div class="px-2 py-1 text-dark mb-3 mt-lg-2 mt-xl-5 fs-3 contact-text border border-1 border-danger" style="background-color: #ededed;">
 <p>I am ultimately looking for full time employment but I am always interested in freelance work as well.</p>
 <p>Email me to the right or feel free to take a look at my resume!
@@ -323,43 +323,43 @@ Read more!
 </div>
 <div class="col-md pt-md-5 mt-md-4">
 <div>
-<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button">Email me! <span class="wave">👋</span></a>
+<a onclick="window.open('mailto:jamiergeche@gmail.com')" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button" role="button">Email me! <span class="wave">👋</span></a>
 </div>
 <div class="sec-button">
-<a onclick="window.open('https://drive.google.com/file/d/19_A9C0DM9gSdMBQvF_hzOaBC3YBqA2Qy/view?usp=sharing')" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-1" type="button">Click here for my resume!</a>
+<a onclick="window.open('https://drive.google.com/file/d/19_A9C0DM9gSdMBQvF_hzOaBC3YBqA2Qy/view?usp=sharing')" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-1" type="button" role="button">Click here for my resume!</a>
 </div>
 </div>
 </div>
 </div>
 <!--Footer-->
 <footer>
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-3 pt-md-3" style="background-color: #E8E8E8;">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-3 pt-md-3" style="background-color: #E8E8E8;" role="contentinfo">
 <div class="row">
 <div class="col thanks pt-1">
 Designed and Built By Jamie Geche
 </div>
 <div class="col email">
-<a onclick="window.open('mailto:jamiergeche@gmail.com')" data-toggle="tooltip" data-placement="top" title="jamiergeche@gmail.com">
+<a onclick="window.open('mailto:jamiergeche@gmail.com')" data-toggle="tooltip" data-placement="top" title="jamiergeche@gmail.com" role="button">
 <img src="images/mail.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white email icon button">
 </a>
 </div>
 <div class="col pl-5 d-flex justify-content-around">
-<a href="https://www.behance.net/theSketch" data-toggle="tooltip" data-placement="top" title="Behance">
+<a href="https://www.behance.net/theSketch" data-toggle="tooltip" data-placement="top" title="Behance" role="button">
 <img src="images/behance.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button">
 </a>
-<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook">
+<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook" role="button">
 <img src="images/facebook.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular facebook icon button">
 </a>
-<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github">
+<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github" role="button">
 <img src="images/github.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white circular github icon button">
 </a>
-<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram">
-<img src="images/instagram.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="purple and yellow circular instagram icon button">
+<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram" role="button">
+<img src="images/instagram.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white circular instagram icon button">
 </a>
-<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter">
+<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter" role="button">
 <img src="images/twitter.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular twitter icon button">
 </a>
-<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn" role="button">
 <img src="images/linkedin.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular linked-in icon button">
 </a>
 </div>
@@ -373,4 +373,3 @@ Designed and Built By Jamie Geche
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>
 </html>
-

@@ -40,10 +40,6 @@ ul {
   background-color: #efeff5;
 }
 
-.nav-link {
-  color: #242424;
-}
-
 .contact-link, .other-link {
   width: 100px;
   text-align: center;
@@ -686,4 +682,3 @@ width: 322px;
    margin-top: 22px;
 }
 }
-

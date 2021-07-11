@@ -18,6 +18,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+
 //Fixed Navbar that Disappears on DownScroll
 $(document).ready(function () {
 	var previousScroll = 0;

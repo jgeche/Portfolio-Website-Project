@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--Title-->
+<title>Game Show App</title>
+<!--Meta Tags-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Bootstrap CSS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--CSS/Fonts-->
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Navigation-->
+<nav class="navbar navbar-expand-md navbar navbar-light fixed-top pt-3 pt-md-2">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5">
+<a class="navbar-brand" href="https://jgeche.github.io/portfolio-project/" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home" alt="JG logo with red, orange and yellow colors which takes you to the home page" src="../images/logo.svg"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<div class="container justify-content-start">
+<div class="navbar-nav justify-content-end">
+<div class="nav-item mx-2 other-link">
+<a class="nav-link text-dark" href="#top" role="button">Top</a>
+</div>
+<div class="nav-item mx-2 other-link">
+<a class="nav-link text-dark" href="#create" role="button">Creation</a>
+</div>
+<div class="nav-item mx-2 other-link">
+<a class="nav-link text-dark" href="#challenge" role="button">Challenges</a>
+</div>
+<div class="nav-item mx-2 contact-link">
+<a class="nav-link text-dark" href="#lesson" role="button">Lessons</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!--What is the project?-->
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro" role="main">
+<div class="row pt-lg-4 pb-lg-5">
+<div class="col-md pb-2 pb-lg-5">
+<div class="jumbotron jumbotron-fluid mt-sm-3 pt-lg-3">
+<h1 class="heading project-heading bg-light text-dark display-4 px-2 py-1 mb-sm-5">What is the project?</h1>
+<p class="hello fw-light text-dark px-2 py-1 fs-4 mt-sm-3">
+The sixth project in the Treehouse TechDegree program was the Game Show App, a guessing game created by Javascript where you would guess a phrase using letters of the keyboard. Each wrong letter loses you a heart and five wrong guesses means you lose the game. There is an overlay display page that starts the page that must be shown first and the game must work properly with Javascript using five different arrays for the answer. It must show a winner or loser page to the user. The various overlays for the game were provided as the project was mainly Javascript involved.</p>
+</div>
+</div>
+<div class="col-xl personal-div">
+<div class="pt-xl-5 mt-xl-5 d-flex justify-content-center">
+<img src="../images/gameshow.png" class="img-fluid personal" alt="Picture of my game show project which has a solid white background and keyboard on bottom of the page">
+</div>
+</div>
+</div>
+</div>
+<!--How was it put together?-->
+<div class="container-fluid about px-sm-1 px-md-4 px-lg-5 pb-xl-5" id="create" role="complementary" aria-label="project creation">
+<div class="row pt-sm-4 pb-sm-5">
+<div class="col-md">
+<div class="jumbotron jumbotron-fluid mt-sm-3 pt-sm-3">
+<h1 class="bg-light create-heading text-dark display-4 px-2 py-1 mb-sm-5">How was it put together?</h1>
+</div>
+<div class="text-dark px-2 project-text" style="background-color: #ededed;">
+<p class="fw-light fs-4 px-2 py-2 mt-sm-3">As this was my first Javascript project I did a lot of studying through Treehouse to make sure I had the right Javascript syntax to make it work properly. I first created the variables needed for creating the game show app within the HTML document. Next, I created an event listener to remove the start page overlay when the start game button is clicked. I then created an array of five phrases and returned a random phrase to the display. Next, I created a function to see if the clicked letter was wrong or correct. I then created an event listener for mouse clicks when the game is playing, reducing a heart if the answer is incorrect. Finally I created a function that showed the winner or loser display based on if the user chose the right answer or ran out of hearts on the app.
+</p>
+</div>
+</div>
+<div class="col-xl pt-sm-5 mt-xl-5">
+<div class="web-div-1 d-flex justify-content-center">
+<img src="../images/project-1.png" class="img-fluid personal" alt="web development decorative picture">
+</div>
+</div>
+</div>
+</div>
+<!--What were the challenges?-->
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="challenge" role="complementary" aria-label="project challenges">
+<div class="row">
+<div class="col-md pt-sm-5">
+<div class="jumbotron jumbotron-fluid pt-lg-4">
+<h1 class="bg-light challenge-heading text-dark display-4 px-2 pt-1 pb-1 mb-sm-5">What were the challenges?</h1>
+<div class="text-dark px-2 about-me" style="background-color: #ededed;">
+<p class="fw-light fs-4 px-2 py-2">The first time I got my project back from Treehouse, I had one small typo that I had to adjust so it worked correctly. In the AddtoPhrase function I needed to have a space within the quotation marks and the app would work correctly. I fixed the small issue and passed the project the second time around. The biggest challenge was learning the correct syntax for Javascript functions and event listeners and making sure they work correctly. After some trial and error I got them all working.
+</div>
+</div>
+</div>
+<div class="col-xl pt-2">
+<div class="challenge-div d-flex justify-content-center">
+<img src="../images/project-2.png" class="img-fluid personal" alt="web development decorative picture">
+</div>
+</div>
+</div>
+</div>
+<!--What did I learn?-->
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-sm-5" style="background-color: #FFF;" role="complementary" aria-label="project lessons">
+<div class="row pt-lg-2 pt-xl-5 pb-xl-5" id="lesson">
+<div class="col-md pt-sm-4">
+<div class="jumbotron jumbotron-fluid">
+<h1 class="bg-light lesson-heading text-dark display-4 px-2 py-1 mb-md-5 mb-3">What did I learn?</h1>
+<div class="text-dark px-2 project-text" style="background-color: #ededed;">
+<p class="fw-light fs-4 px-2 py-2">Javascript is used all over the web including social media and major websites and interactivity of all kinds. It was a very vital experience for me to create a game made mostly of Javascript as Javascript is very much a part of the daily life of a web developer. Creating the correct syntax for Javascript will be something that I will continually work on in the future to make any website I make the most interactive it can be.
+</p>
+</div>
+</div>
+</div>
+<div class="col-xl mt-sm-5">
+<div class="mt-lg-5 pt-lg-3">
+<a href="https://jgeche.github.io/Game-Show-App/" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" role="button">View Project Page!</a>
+</div>
+<div class="pt-3 pt-lg-5 pb-5 pb-xl-0">
+<a href="https://github.com/jgeche/Game-Show-App" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto py-3 rounded-pill border border-warning border-1" role="button">View Project on Github!</a>
+</div>
+</div>
+</div>
+</div>
+<!--Footer-->
+<footer>
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 py-3 pt-md-3" style="background-color: #E8E8E8;">
+<div class="row">
+<div class="col thanks pt-1">
+Designed and Built By Jamie Geche
+</div>
+<div class="col email">
+<a onclick="window.open('mailto:jamiergeche@gmail.com')" data-toggle="tooltip" data-placement="top" title="jamiergeche@gmail.com" role="button">
+<img src="../images/mail.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white email icon button">
+</a>
+</div>
+<div class="col pl-5 d-flex justify-content-around">
+<a href="https://www.behance.net/theSketch" data-toggle="tooltip" data-placement="top" title="Behance" role="button">
+<img src="../images/behance.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular behance icon button">
+</a>
+<a href="https://www.facebook.com/jamie.sketch" data-toggle="tooltip" data-placement="top" title="Facebook" role="button">
+<img src="../images/facebook.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular facebook icon button">
+</a>
+<a href="https://github.com/jgeche" data-toggle="tooltip" data-placement="top" title="Github" role="button">
+<img src="../images/github.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white circular github icon button">
+</a>
+<a href="https://www.instagram.com/sketchtothegech/" data-toggle="tooltip" data-placement="top" title="Instagram" role="button">
+<img src="../images/instagram.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="black and white circular instagram icon button">
+</a>
+<a href="https://twitter.com/JamieRSketch" data-toggle="tooltip" data-placement="top" title="Twitter" role="button">
+<img src="../images/twitter.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular twitter icon button">
+</a>
+<a href="https://www.linkedin.com/in/jamierg/" data-toggle="tooltip" data-placement="top" title="LinkedIn" role="button">
+<img src="../images/linkedin.svg" class="icon-1 img-fluid rounded-circle border border-1 border-light" alt="blue circular linked-in icon button">
+</a>
+</div>
+</div>
+</div>
+</footer>
+<!--optional Javascript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="../js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
